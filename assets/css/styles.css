@@ -1,0 +1,254 @@
+/* Penyesuaian situs HTML statis. Edit file ini untuk mengubah tampilan global. */
+:root { color-scheme: light; }
+:root[data-theme="dark"] { color-scheme: dark; }
+html { scroll-behavior: smooth; }
+body { overflow-x: clip; }
+[hidden] { display: none !important; }
+button, summary { cursor: pointer; }
+button:focus-visible, a:focus-visible, summary:focus-visible {
+  outline: 3px solid var(--brand-2, #247bff);
+  outline-offset: 4px;
+}
+header.is-scrolled { box-shadow: 0 4px 22px #05133816; }
+.theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: .5rem;
+  flex-shrink: 0;
+  min-width: 2.5rem;
+  min-height: 2.5rem;
+  padding: .4rem .7rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--fg);
+  font: inherit;
+}
+.theme-toggle:hover { border-color: var(--brand-2); }
+[data-theme-icon] { font-size: 1.25rem; line-height: 1; }
+.mobile-nav {
+  max-height: calc(100dvh - 5rem);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding: .5rem 1.5rem 1.5rem;
+  border-top: 1px solid var(--line);
+  background: var(--surface);
+}
+.mobile-nav-link {
+  display: block;
+  max-width: 36rem;
+  margin-inline: auto;
+  border-bottom: 1px solid var(--line);
+  padding: 1rem 0;
+  font-size: 1rem;
+}
+.mobile-nav-link[aria-current="page"] { color: var(--brand-2); font-weight: 700; }
+.mobile-theme { display: flex; margin: 1rem 0 0 auto; }
+@media (min-width: 1280px) { .mobile-nav { display: none; } }
+
+/* FAQ menggunakan details/summary: tetap bekerja tanpa JavaScript. */
+.faq-item > summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1.25rem;
+  list-style: none;
+  font-weight: 500;
+}
+.faq-item > summary::-webkit-details-marker { display: none; }
+.faq-item > summary::after { content: "+"; font-size: 1.4rem; color: var(--brand-2); }
+.faq-item[open] > summary::after { content: "−"; }
+.faq-item > p { padding: 0 1.25rem 1.25rem; color: var(--muted); font-size: .875rem; line-height: 1.8; }
+
+/* Slideshow beranda. Semua foto tersedia sebagai file lokal. */
+.hero-slide { position: absolute; inset: 0; opacity: 0; transition: opacity 1.2s ease; }
+.hero-slide.is-active { opacity: 1; }
+.hero-slide-image { width: 100%; height: 100%; object-fit: cover; }
+.hero-progress button[aria-current="true"] > span { background: white; }
+.hero-progress button:not([aria-current="true"]) .hero-progress__bar { display: none; }
+.hero-progress__bar { animation: none !important; }
+.slide-pause {
+  border: 1px solid #ffffff55;
+  border-radius: 999px;
+  padding: .4rem .75rem;
+  font-size: .75rem;
+  color: white;
+  background: #ffffff0d;
+}
+.slide-pause:hover { background: #ffffff26; }
+
+/* Filter katalog produk. */
+.filter-chip {
+  flex-shrink: 0;
+  white-space: nowrap;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: .5rem 1rem;
+  font: inherit;
+  font-size: .875rem;
+  color: var(--muted);
+  background: var(--surface);
+}
+.filter-chip[aria-pressed="true"] { background: var(--brand); border-color: var(--brand); color: white; }
+.filter-chip:hover { border-color: var(--brand-2); }
+
+/* Dialog foto, jika halaman memakai galeri. */
+.photo-dialog {
+  width: min(94vw, 70rem);
+  max-height: 94dvh;
+  margin: auto;
+  padding: 1rem;
+  border: 1px solid #ffffff33;
+  border-radius: 1rem;
+  background: #071020;
+  color: white;
+}
+.photo-dialog::backdrop { background: #000c; }
+.photo-dialog img { width: 100%; max-height: 75dvh; object-fit: contain; }
+.photo-dialog button { display: block; margin: 0 0 .75rem auto; padding: .4rem .8rem; border: 1px solid #ffffff55; border-radius: 999px; }
+.photo-dialog figcaption { padding-top: .75rem; text-align: center; }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; }
+}
+
+/* Font lokal, tersedia tanpa koneksi internet. */
+:root { --font-poppins: "Poppins", "Poppins Fallback"; --font-manrope: "Manrope", "Manrope Fallback"; }
+
+/* Transisi halaman. Lapisan bermerek tidak menunggu gambar, peta, atau koneksi. */
+html { scrollbar-gutter: stable; }
+main { min-width: 0; }
+main:focus { outline: none; }
+.page-cover {
+  position: fixed;
+  inset: 0;
+  z-index: 150;
+  display: grid;
+  place-items: center;
+  background: var(--page);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity .24s ease, visibility 0s .24s;
+}
+.js.is-loading .page-cover {
+  opacity: 1;
+  visibility: visible;
+  transition-delay: 0s;
+  animation: cover-failsafe .3s 2.4s forwards;
+}
+.page-cover-inner { display: grid; justify-items: center; gap: 1.2rem; padding: 2rem; }
+.page-cover-logos { width: 136px; height: 136px; }
+.page-cover-logos img { width: 100%; height: 100%; object-fit: contain; }
+.page-cover-label {
+  font-family: var(--font-manrope), sans-serif;
+  font-size: .875rem;
+  font-weight: 700;
+  letter-spacing: .32em;
+  text-transform: uppercase;
+  color: var(--brand-2);
+  padding-left: .32em;
+}
+.page-cover-track { width: 104px; height: 3px; overflow: hidden; border-radius: 999px; background: var(--line); }
+.page-cover-track > span { display: block; width: 50%; height: 100%; background: var(--brand); animation: cover-progress .8s ease-in-out infinite alternate; }
+.is-loading .page-cover-inner { animation: cover-logo-in .35s ease-out both; }
+@keyframes cover-progress { from { transform: translateX(-100%); } to { transform: translateX(200%); } }
+@keyframes cover-logo-in { from { opacity: 0; transform: translateY(10px) scale(.97); } to { opacity: 1; transform: none; } }
+@keyframes cover-failsafe { to { opacity: 0; visibility: hidden; } }
+
+/* Konten tidak disembunyikan sebelum JavaScript berhasil menyiapkan observer. */
+.reveal-card { height: 100%; min-width: 0; }
+[data-reveal] {
+  transition: opacity .65s cubic-bezier(.22,1,.36,1), transform .65s cubic-bezier(.22,1,.36,1);
+  transition-delay: var(--reveal-delay, 0ms);
+}
+.js [data-reveal].reveal-pending { opacity: 0; transform: translateY(24px); }
+.js [data-reveal].is-revealed { opacity: 1; }
+@media print {
+  .page-cover, .photo-dialog { display: none !important; }
+  [data-reveal] { opacity: 1 !important; transform: none !important; }
+}
+
+/* Navigasi HP tetap terlihat saat layar sempit dan fokus keyboard tidak terlepas. */
+body.menu-open, body.dialog-open { overflow: hidden; }
+.mobile-nav:not([hidden]) { animation: menu-enter .22s ease-out both; }
+@keyframes menu-enter { from { opacity: 0; transform: translateY(-6px); } to { opacity: 1; transform: none; } }
+.desktop-nav a[aria-current="page"], footer nav a[aria-current="page"] { color: var(--brand-2); font-weight: 600; }
+[data-menu-toggle] > span { font-size: 1.25rem; line-height: 1; }
+
+/* Jawaban FAQ mendapat ukuran alami, termasuk setelah klik cepat berulang kali. */
+.faq-answer > p { padding: 0 1.25rem 1.25rem; color: var(--muted); font-size: .875rem; line-height: 1.8; }
+.faq-item > summary::after { content: "+"; transition: transform .22s ease; }
+.faq-item[open] > summary::after { content: "+"; transform: rotate(45deg); }
+.filter-status { margin: -1rem 0 1.75rem; color: var(--muted); font-size: .8125rem; }
+
+/* Progress berjalan mengikuti timer dan berhenti bersamaan dengan slider. */
+.hero-progress { flex-wrap: wrap; column-gap: 14px; row-gap: 8px; }
+.hero-progress > ol { flex-shrink: 0; }
+.hero-progress > [data-slide-caption] { flex: 1; min-width: 100px; line-height: 1.5; }
+.slide-indicator-track { position: relative; display: block; width: 100%; height: 3px; overflow: hidden; border-radius: 999px; background: #ffffff40; }
+.slide-indicator-fill { position: absolute; inset: 0; background: white; transform: scaleX(0); transform-origin: left; }
+.hero-progress button[aria-current="true"] > .slide-indicator-track { background: #ffffff40; }
+.hero-progress [data-slide-to]:hover .slide-indicator-track { background: #ffffff80; }
+.slideshow-arrows { display: flex; gap: .5rem; margin-top: .6rem; }
+.slideshow-arrows button {
+  display: grid; place-items: center; width: 36px; height: 36px;
+  border: 1px solid #ffffff44; border-radius: 999px; background: #ffffff0d;
+  font-size: 1.5rem; line-height: 1; color: white;
+}
+.slideshow-arrows button:hover { background: #ffffff26; }
+.hero-slide.is-active .hero-slide-image { animation: photo-kenburns 9s ease-out both; }
+.slideshow-paused .hero-slide-image { animation-play-state: paused; }
+@keyframes photo-kenburns { from { transform: scale(1); } to { transform: scale(1.04); } }
+
+/* Gambar diperbesar hanya dari tombol foto; tautan kartu produk tetap membuka detail. */
+.photo-trigger {
+  position: absolute; inset: 0; display: block; width: 100%; height: 100%;
+  padding: 0; border: 0; background: transparent; cursor: zoom-in;
+}
+.photo-trigger:focus-visible { outline-offset: -5px; }
+.photo-zoom-hint {
+  position: absolute; right: .75rem; bottom: .75rem; z-index: 2;
+  display: grid; place-items: center; width: 34px; height: 34px;
+  border: 1px solid #ffffff44; border-radius: 999px; color: white; background: #071020b3;
+  opacity: 0; transition: opacity .2s; font-size: 1.25rem;
+}
+.photo-trigger:hover .photo-zoom-hint, .photo-trigger:focus-visible .photo-zoom-hint { opacity: 1; }
+@media (hover: none) { .photo-zoom-hint { opacity: 1; } }
+.photo-dialog {
+  box-sizing: border-box; width: min(94vw, 72rem); max-width: 100%; max-height: 94dvh;
+  margin: auto; overflow: auto; padding: 1rem; border-radius: 1.25rem;
+}
+.photo-dialog[open] { animation: dialog-enter .2s ease-out both; }
+.photo-dialog-toolbar { display: flex; align-items: center; justify-content: space-between; gap: 1rem; margin-bottom: .75rem; }
+.photo-dialog .photo-close { display: inline-flex; align-items: center; gap: .5rem; margin: 0; font-size: .875rem; }
+.photo-dialog-counter { font-size: .8125rem; color: #c6d3e8; font-variant-numeric: tabular-nums; }
+.photo-viewer { position: relative; touch-action: pan-y pinch-zoom; }
+.photo-viewer figure { margin: 0; }
+.photo-dialog .photo-previous, .photo-dialog .photo-next {
+  position: absolute; top: 40%; z-index: 2; display: grid; place-items: center;
+  width: 40px; height: 40px; margin: 0; padding: 0; border-radius: 999px;
+  background: #071020b3; color: white; font-size: 1.8rem; line-height: 1;
+}
+.photo-previous { left: .5rem; }
+.photo-next { right: .5rem; }
+.photo-viewer img { width: 100%; height: min(65dvh, 46rem); object-fit: contain; border-radius: .5rem; }
+.photo-viewer figcaption { padding: .8rem .5rem 0; line-height: 1.5; font-size: .875rem; }
+.photo-help, .photo-status { text-align: center; color: #bac8de; font-size: .75rem; }
+.photo-help { margin-top: .8rem; }
+.photo-status:not(:empty) { padding: .5rem; }
+.photo-status:empty { display: none; }
+@keyframes dialog-enter { from { opacity: 0; transform: scale(.97); } to { opacity: 1; transform: none; } }
+.image-error { position: absolute; inset: 0; display: grid; place-items: center; padding: 1.5rem; background: var(--surface); color: var(--muted); text-align: center; font-size: .875rem; }
+.media-availability { display: block; margin-top: .4rem; font-size: .6875rem; color: var(--muted); }
+
+/* Preferensi reduced motion: seluruh isi langsung terlihat, navigasi tanpa jeda. */
+@media (prefers-reduced-motion: reduce) {
+  .page-cover { display: none; }
+  .js [data-reveal].reveal-pending { opacity: 1; transform: none; }
+  .hero-slide.is-active .hero-slide-image { animation: none; }
+  .mobile-nav:not([hidden]), .photo-dialog[open] { animation: none; }
+  [data-reveal], .hero-slide { transition: none; }
+}
