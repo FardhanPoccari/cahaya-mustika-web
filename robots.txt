@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://cahayamustika.example/sitemap.xml
+Sitemap: https://fardhanpoccari.github.io/cahaya-mustika-web/sitemap.xml

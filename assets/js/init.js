@@ -1,6 +1,9 @@
 /* Dijalankan sebelum CSS: tema konsisten saat membuka atau berganti halaman. */
 (() => {
   "use strict";
+  const initializedKey = "__cahaya_boot";
+  if (window[initializedKey]) return;
+  window[initializedKey] = true;
   const root = document.documentElement;
   let theme = "light";
   try {

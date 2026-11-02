@@ -1,6 +1,9 @@
 /* Fungsi bersama. Semua isi halaman tetap berada di HTML dan bisa dibuka langsung. */
 (() => {
   "use strict";
+  const initializedKey = "__cahaya_main";
+  if (window[initializedKey]) return;
+  window[initializedKey] = true;
   const root = document.documentElement;
   const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
   const listenMedia = (media, handler) => {

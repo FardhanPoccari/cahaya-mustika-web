@@ -69,16 +69,6 @@ header.is-scrolled { box-shadow: 0 4px 22px #05133816; }
 .hero-progress button[aria-current="true"] > span { background: white; }
 .hero-progress button:not([aria-current="true"]) .hero-progress__bar { display: none; }
 .hero-progress__bar { animation: none !important; }
-.slide-pause {
-  border: 1px solid #ffffff55;
-  border-radius: 999px;
-  padding: .4rem .75rem;
-  font-size: .75rem;
-  color: white;
-  background: #ffffff0d;
-}
-.slide-pause:hover { background: #ffffff26; }
-
 /* Filter katalog produk. */
 .filter-chip {
   flex-shrink: 0;
@@ -94,21 +84,6 @@ header.is-scrolled { box-shadow: 0 4px 22px #05133816; }
 .filter-chip[aria-pressed="true"] { background: var(--brand); border-color: var(--brand); color: white; }
 .filter-chip:hover { border-color: var(--brand-2); }
 
-/* Dialog foto, jika halaman memakai galeri. */
-.photo-dialog {
-  width: min(94vw, 70rem);
-  max-height: 94dvh;
-  margin: auto;
-  padding: 1rem;
-  border: 1px solid #ffffff33;
-  border-radius: 1rem;
-  background: #071020;
-  color: white;
-}
-.photo-dialog::backdrop { background: #000c; }
-.photo-dialog img { width: 100%; max-height: 75dvh; object-fit: contain; }
-.photo-dialog button { display: block; margin: 0 0 .75rem auto; padding: .4rem .8rem; border: 1px solid #ffffff55; border-radius: 999px; }
-.photo-dialog figcaption { padding-top: .75rem; text-align: center; }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; }
@@ -153,9 +128,9 @@ main:focus { outline: none; }
 }
 .page-cover-track { width: 104px; height: 3px; overflow: hidden; border-radius: 999px; background: var(--line); }
 .page-cover-track > span { display: block; width: 50%; height: 100%; background: var(--brand); animation: cover-progress .8s ease-in-out infinite alternate; }
-.is-loading .page-cover-inner { animation: cover-logo-in .35s ease-out both; }
+
 @keyframes cover-progress { from { transform: translateX(-100%); } to { transform: translateX(200%); } }
-@keyframes cover-logo-in { from { opacity: 0; transform: translateY(10px) scale(.97); } to { opacity: 1; transform: none; } }
+
 @keyframes cover-failsafe { to { opacity: 0; visibility: hidden; } }
 
 /* Konten tidak disembunyikan sebelum JavaScript berhasil menyiapkan observer. */
@@ -199,9 +174,9 @@ body.menu-open, body.dialog-open { overflow: hidden; }
   font-size: 1.5rem; line-height: 1; color: white;
 }
 .slideshow-arrows button:hover { background: #ffffff26; }
-.hero-slide.is-active .hero-slide-image { animation: photo-kenburns 9s ease-out both; }
-.slideshow-paused .hero-slide-image { animation-play-state: paused; }
-@keyframes photo-kenburns { from { transform: scale(1); } to { transform: scale(1.04); } }
+.hero-slide.is-active .hero-slide-image { transform: none; }
+
+
 
 /* Gambar diperbesar hanya dari tombol foto; tautan kartu produk tetap membuka detail. */
 .photo-trigger {
@@ -220,7 +195,10 @@ body.menu-open, body.dialog-open { overflow: hidden; }
 .photo-dialog {
   box-sizing: border-box; width: min(94vw, 72rem); max-width: 100%; max-height: 94dvh;
   margin: auto; overflow: auto; padding: 1rem; border-radius: 1.25rem;
+  border: 1px solid #ffffff33; background: #071020; color: white;
 }
+.photo-dialog::backdrop { background: #000c; }
+.photo-dialog button { padding: .4rem .8rem; border: 1px solid #ffffff55; border-radius: 999px; }
 .photo-dialog[open] { animation: dialog-enter .2s ease-out both; }
 .photo-dialog-toolbar { display: flex; align-items: center; justify-content: space-between; gap: 1rem; margin-bottom: .75rem; }
 .photo-dialog .photo-close { display: inline-flex; align-items: center; gap: .5rem; margin: 0; font-size: .875rem; }
@@ -252,3 +230,14 @@ body.menu-open, body.dialog-open { overflow: hidden; }
   .mobile-nav:not([hidden]), .photo-dialog[open] { animation: none; }
   [data-reveal], .hero-slide { transition: none; }
 }
+
+/* Common consultation block across every page. */
+.consultation-cta{padding:64px 0;background:#1754cf;color:#fff}
+.consultation-cta .collection-container{width:min(100% - 48px,1216px);margin-inline:auto}
+.consultation-inner{display:flex;justify-content:space-between;align-items:center;gap:48px}
+.consultation-copy{max-width:760px}.consultation-label{font:600 11px/1.6 var(--font-manrope),sans-serif;letter-spacing:.14em;color:#d6e4ff;margin:0 0 13px}
+.consultation-copy h2{color:#fff;font:700 clamp(28px,3vw,38px)/1.25 var(--font-manrope),sans-serif;letter-spacing:-.03em;margin:0 0 15px}
+.consultation-copy>p:last-child{max-width:660px;font-size:14px;line-height:1.85;color:#e3edff}
+.consultation-button{display:inline-flex;justify-content:center;align-items:center;flex-shrink:0;gap:28px;padding:17px 23px;background:#fff;color:#174db8;border-radius:999px;font-size:12px;font-weight:600;box-shadow:0 6px 18px #0b2f861a}.consultation-button span{font-size:20px;line-height:1}.consultation-button:hover{background:#eaf1ff}.consultation-button:focus-visible{outline:3px solid #fff;outline-offset:5px}
+@media(max-width:1000px){.consultation-inner{flex-direction:column;align-items:flex-start;gap:28px}.consultation-copy{max-width:680px}}
+@media(max-width:599px){.consultation-cta{padding:44px 0}.consultation-cta .collection-container{width:calc(100% - 36px)}.consultation-copy h2{font-size:30px}.consultation-copy>p:last-child{font-size:13px}.consultation-button{padding:16px 22px}}

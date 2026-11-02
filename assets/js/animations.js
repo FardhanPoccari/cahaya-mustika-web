@@ -1,6 +1,9 @@
 /* Transisi seluruh halaman dan animasi scroll; tetap bekerja melalui file://. */
 (() => {
   "use strict";
+  const initializedKey = "__cahaya_animation";
+  if (window[initializedKey]) return;
+  window[initializedKey] = true;
   const root = document.documentElement;
   const main = document.querySelector("main");
   const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)");

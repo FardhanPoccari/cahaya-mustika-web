@@ -1,0 +1,8 @@
+{
+  "kind": "reduced-motion-javascript",
+  "initial": "hero-slide-1",
+  "after": "hero-slide-1",
+  "unchanged": true,
+  "loaderHidden": true,
+  "pendingReveal": 0
+}

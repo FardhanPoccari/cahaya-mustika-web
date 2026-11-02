@@ -1,6 +1,9 @@
 /* Galeri lokal: perbesar foto, panah, keyboard, swipe, Escape, dan restore focus. */
 (() => {
   "use strict";
+  const initializedKey = "__cahaya_gallery";
+  if (window[initializedKey]) return;
+  window[initializedKey] = true;
   const triggers = [...document.querySelectorAll("[data-lightbox]")];
   if (!triggers.length) return;
   let dialog;

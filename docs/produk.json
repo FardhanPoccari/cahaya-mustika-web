@@ -1,0 +1,530 @@
+[
+  {
+    "slug": "hikvision-ds-d4212fi-gwf-iii",
+    "name": "Hikvision DS-D4212FI-GWF/III",
+    "short": "LED Indoor P1.25",
+    "desc": "Detail rapat untuk presentasi dan tampilan di dalam ruangan.",
+    "specs": [
+      [
+        "Pixel pitch",
+        "1,25 mm"
+      ],
+      [
+        "Kecerahan",
+        "800 cd/m²"
+      ],
+      [
+        "Resolusi kabinet",
+        "480 × 270"
+      ]
+    ],
+    "extra": [
+      [
+        "Dimensi kabinet",
+        "600 × 337,5 × 50,9 mm"
+      ],
+      [
+        "Perawatan",
+        "Dari depan"
+      ],
+      [
+        "Bobot",
+        "5,4 kg"
+      ]
+    ],
+    "image": "assets/images/catalog/hikvision-ds-d4212fi-gwf-iii.webp",
+    "width": 650,
+    "height": 568,
+    "sheet": "HIKVISION",
+    "row": 5,
+    "original": "xl/media/image15.png",
+    "sha256": "99635984df8abccd988716266e119c2d8b3a0ee16b6752d5d5797a53fdfb38ed",
+    "official": null,
+    "brand": "Hikvision",
+    "category": "indoor"
+  },
+  {
+    "slug": "hikvision-ds-d4418fi-caf-b",
+    "name": "Hikvision DS-D4418FI-CAF(B)",
+    "short": "LED Indoor P1.875",
+    "desc": "Kabinet ringan dengan akses perawatan dari bagian depan.",
+    "specs": [
+      [
+        "Pixel pitch",
+        "1,875 mm"
+      ],
+      [
+        "Kecerahan",
+        "800 nits"
+      ],
+      [
+        "Refresh rate",
+        "Hingga 3.840 Hz"
+      ]
+    ],
+    "extra": [
+      [
+        "Dimensi kabinet",
+        "480 × 540 mm"
+      ],
+      [
+        "Resolusi kabinet",
+        "256 × 288"
+      ],
+      [
+        "Bobot",
+        "3,5 kg"
+      ]
+    ],
+    "image": "assets/images/catalog/hikvision-ds-d4418fi-caf-b.webp",
+    "width": 343,
+    "height": 450,
+    "sheet": "HIKVISION",
+    "row": 13,
+    "original": "xl/media/image3.png",
+    "sha256": "b02422de037d428b8a3f88064f2b963c3b5de91225ca171a580c55a6b65b784c",
+    "official": null,
+    "brand": "Hikvision",
+    "category": "indoor"
+  },
+  {
+    "slug": "samsung-ifj-n-p1-2",
+    "name": "Samsung IFJ-N P1.2",
+    "short": "LED Indoor P1.2",
+    "desc": "Layar Samsung untuk materi presentasi dan visual ruang profesional.",
+    "specs": [
+      [
+        "Pixel pitch",
+        "1,26 mm"
+      ],
+      [
+        "Kecerahan maks.",
+        "600 nits"
+      ],
+      [
+        "Resolusi kabinet",
+        "640 × 360"
+      ]
+    ],
+    "extra": [
+      [
+        "Dimensi kabinet",
+        "806,4 × 453,6 × 76,7 mm"
+      ],
+      [
+        "Bobot kabinet",
+        "11,8 kg"
+      ],
+      [
+        "Kontras",
+        "8.000:1"
+      ]
+    ],
+    "image": "assets/images/catalog/samsung-ifj-n-p1-2.webp",
+    "width": 395,
+    "height": 237,
+    "sheet": "Samsung",
+    "row": 2,
+    "original": "xl/media/image14.png",
+    "sha256": "a31aa48174d7cc6a472879111ac20f4cef75597bbc9128c14a83e546a4ff1e6c",
+    "official": null,
+    "brand": "Samsung",
+    "category": "indoor"
+  },
+  {
+    "slug": "hikvision-uno-z-2-5-ihc-zcd",
+    "name": "Hikvision UNO-Z-2.5-IHC-ZCD",
+    "short": "UNO Indoor P2.5",
+    "desc": "Pilihan layar LED modular dengan kabinet berformat 640 × 480 mm.",
+    "specs": [
+      [
+        "Pixel pitch",
+        "2,5 mm"
+      ],
+      [
+        "Kecerahan",
+        "600 cd/m²"
+      ],
+      [
+        "Refresh rate",
+        "3.840 Hz"
+      ]
+    ],
+    "extra": [
+      [
+        "Dimensi kabinet",
+        "640 × 480 mm"
+      ],
+      [
+        "Tipe LED",
+        "SMD 3-in-1"
+      ],
+      [
+        "Pemasangan",
+        "Instalasi tetap"
+      ]
+    ],
+    "image": "assets/images/catalog/hikvision-uno-z-2-5-ihc-zcd.webp",
+    "width": 609,
+    "height": 402,
+    "sheet": "HIKVISION",
+    "row": 2,
+    "original": "xl/media/image19.png",
+    "sha256": "d6009c3d6809b599475ef4c02bc467c0e54d3443d8ee2066003db007a2652441",
+    "official": null,
+    "brand": "Hikvision",
+    "category": "indoor"
+  },
+  {
+    "slug": "hikvision-ds-d4009bw-2fc",
+    "name": "Hikvision DS-D4009BW-2FC",
+    "short": "LED Indoor COB P0.9",
+    "desc": "Teknologi Flip-chip COB dengan jarak piksel 0,9375 mm.",
+    "specs": [
+      [
+        "Pixel pitch",
+        "0,9375 mm"
+      ],
+      [
+        "Resolusi kabinet",
+        "640 × 360"
+      ],
+      [
+        "Teknologi",
+        "Flip-chip COB"
+      ]
+    ],
+    "extra": [
+      [
+        "Dimensi kabinet",
+        "600 × 337,5 × 29,3 mm"
+      ],
+      [
+        "Bobot",
+        "3,4 kg"
+      ],
+      [
+        "Perawatan",
+        "Dari depan"
+      ]
+    ],
+    "image": "assets/images/catalog/hikvision-ds-d4009bw-2fc.webp",
+    "width": 394,
+    "height": 363,
+    "sheet": "HIKVISION",
+    "row": 40,
+    "original": "xl/media/image5.png",
+    "sha256": "26a4c3cf5ad9c45b165a680c1101d2be46042e3509d11ecc9b6ee1f55d977f51",
+    "official": null,
+    "brand": "Hikvision",
+    "category": "indoor"
+  },
+  {
+    "slug": "hikvision-ds-d4425fi-ckf",
+    "name": "Hikvision DS-D4425FI-CKF",
+    "short": "LED Indoor P2.5",
+    "desc": "Kabinet LED dengan akses servis depan untuk instalasi dalam ruangan.",
+    "specs": [
+      [
+        "Pixel pitch",
+        "2,5 mm"
+      ],
+      [
+        "Kecerahan",
+        "600 nits"
+      ],
+      [
+        "Refresh rate",
+        "3.840 Hz"
+      ]
+    ],
+    "extra": [
+      [
+        "Resolusi kabinet",
+        "256 × 480"
+      ],
+      [
+        "Bobot",
+        "8,8 kg"
+      ],
+      [
+        "Perawatan",
+        "Dari depan"
+      ]
+    ],
+    "image": "assets/images/catalog/hikvision-ds-d4425fi-ckf.webp",
+    "width": 800,
+    "height": 800,
+    "sheet": "HIKVISION",
+    "row": 15,
+    "original": "xl/media/image20.png",
+    "sha256": "67f2644567f8d8867b1eafaaf5eb1853be9ec38c2e6a086cd2f515af5c4d7635",
+    "official": null,
+    "brand": "Hikvision",
+    "category": "indoor"
+  },
+  {
+    "slug": "hikvision-ds-d4440fo",
+    "name": "Hikvision DS-D4440FO",
+    "short": "LED Outdoor P4",
+    "desc": "Layar luar ruangan dengan kecerahan minimum 5.500 nits.",
+    "specs": [
+      [
+        "Pixel pitch",
+        "4 mm"
+      ],
+      [
+        "Kecerahan",
+        "≥ 5.500 nits"
+      ],
+      [
+        "Resolusi kabinet",
+        "240 × 240"
+      ]
+    ],
+    "extra": [
+      [
+        "Dimensi kabinet",
+        "960 × 960 mm"
+      ],
+      [
+        "Bobot",
+        "29 kg"
+      ],
+      [
+        "Suhu kerja",
+        "−20 hingga 50 °C"
+      ]
+    ],
+    "image": "assets/images/catalog/hikvision-ds-d4440fo.webp",
+    "width": 254,
+    "height": 384,
+    "sheet": "HIKVISION",
+    "row": 26,
+    "original": "xl/media/image12.jpg",
+    "sha256": "b1e3a24d7bcf2711b5eeb2f14f05b545c494822e6f4cc366ca47f6519b620e25",
+    "official": null,
+    "brand": "Hikvision",
+    "category": "outdoor"
+  },
+  {
+    "slug": "hikvision-ds-d4239cf-1aab",
+    "name": "Hikvision DS-D4239CF-1AAB",
+    "short": "LED Outdoor P3.9",
+    "desc": "Kabinet tinggi dengan perlindungan IP66 untuk kebutuhan outdoor.",
+    "specs": [
+      [
+        "Pixel pitch",
+        "3,91 mm"
+      ],
+      [
+        "Proteksi",
+        "IP66"
+      ],
+      [
+        "Resolusi kabinet",
+        "128 × 256"
+      ]
+    ],
+    "extra": [
+      [
+        "Dimensi kabinet",
+        "500 × 1.000 × 97 mm"
+      ],
+      [
+        "Bobot",
+        "18,24 kg"
+      ],
+      [
+        "Perawatan",
+        "Dari depan dan belakang"
+      ]
+    ],
+    "image": "assets/images/catalog/hikvision-ds-d4239cf-1aab.webp",
+    "width": 194,
+    "height": 423,
+    "sheet": "HIKVISION",
+    "row": 53,
+    "original": "xl/media/image13.png",
+    "sha256": "68da7c1211b53463782d6b5039a59c24ba4720ec38acc349738c296454fc7f8b",
+    "official": "https://pro-av.hikvision.com/en/products/led-displays/outdoor-led/lumifit-series/ds-d4239cf-1aab/",
+    "brand": "Hikvision",
+    "category": "outdoor"
+  },
+  {
+    "slug": "samsung-vmr-o-p3-9",
+    "name": "Samsung VMR-O P3.9",
+    "short": "LED Outdoor P3.9",
+    "desc": "Solusi LED untuk kebutuhan acara dengan akses servis depan dan belakang.",
+    "specs": [
+      [
+        "Pixel pitch",
+        "3,9 mm"
+      ],
+      [
+        "Kecerahan",
+        "4.500 nits"
+      ],
+      [
+        "Proteksi",
+        "IP65"
+      ]
+    ],
+    "extra": [
+      [
+        "Kontras",
+        "4.000:1"
+      ],
+      [
+        "Resolusi kabinet",
+        "128 × 128"
+      ],
+      [
+        "Perawatan",
+        "Dari depan dan belakang"
+      ]
+    ],
+    "image": "assets/images/catalog/samsung-vmr-o-p3-9.webp",
+    "width": 480,
+    "height": 480,
+    "sheet": "Samsung",
+    "row": 4,
+    "original": "xl/media/image16.png",
+    "sha256": "7afcd07b0f917a4a1aade07cfc434eb03905525a9dadaf53b55889720f7166c1",
+    "official": "https://www.samsung.com/sg/business/led-signage/outdoor-led/vmr-o-outdoor-led-lh039vmrsxc-en/",
+    "brand": "Samsung",
+    "category": "outdoor"
+  },
+  {
+    "slug": "samsung-xat100-p10",
+    "name": "Samsung XAT100 P10",
+    "short": "LED Outdoor P10",
+    "desc": "Kabinet Samsung XAT untuk media informasi dan promosi di luar ruangan.",
+    "specs": [
+      [
+        "Pixel pitch",
+        "10 mm"
+      ],
+      [
+        "Kecerahan",
+        "6.000 nits"
+      ],
+      [
+        "Resolusi kabinet",
+        "96 × 96"
+      ]
+    ],
+    "extra": [
+      [
+        "Tipe LED",
+        "SMD2727"
+      ],
+      [
+        "Kontras",
+        "3.000:1"
+      ],
+      [
+        "Suhu kerja",
+        "−30 hingga 50 °C"
+      ]
+    ],
+    "image": "assets/images/catalog/samsung-xat100-p10.webp",
+    "width": 239,
+    "height": 330,
+    "sheet": "Samsung",
+    "row": 3,
+    "original": "xl/media/image21.png",
+    "sha256": "d42b9c8f5e240c15af1fd5bc91a45d51ae14412ad78e024da3d03f3b0fabf287",
+    "official": "https://www.samsung.com/sg/business/led-signage/outdoor-led/xat-outdoor-led-lh100xatsac-en/",
+    "brand": "Samsung",
+    "category": "outdoor"
+  },
+  {
+    "slug": "hikvision-ds-d4239cd-1aab",
+    "name": "Hikvision DS-D4239CD-1AAB",
+    "short": "LED Outdoor P3.9",
+    "desc": "Kabinet persegi berproteksi IP66 dengan servis depan dan belakang.",
+    "specs": [
+      [
+        "Pixel pitch",
+        "3,91 mm"
+      ],
+      [
+        "Proteksi",
+        "IP66"
+      ],
+      [
+        "Resolusi kabinet",
+        "128 × 128"
+      ]
+    ],
+    "extra": [
+      [
+        "Dimensi kabinet",
+        "500 × 500 × 97 mm"
+      ],
+      [
+        "Bobot",
+        "9,12 kg"
+      ],
+      [
+        "Perawatan",
+        "Dari depan dan belakang"
+      ]
+    ],
+    "image": "assets/images/catalog/hikvision-ds-d4239cd-1aab.webp",
+    "width": 323,
+    "height": 410,
+    "sheet": "HIKVISION",
+    "row": 51,
+    "original": "xl/media/image4.jpg",
+    "sha256": "e3608efd8695834fb5626f16c7d689a10a62cfc65a580c86421ffd7fc5ebd3f2",
+    "official": "https://pro-av.hikvision.com/en/products/led-displays/outdoor-led/lumifit-series/ds-d4239cd-1aab/",
+    "brand": "Hikvision",
+    "category": "outdoor"
+  },
+  {
+    "slug": "samsung-xat067-p6-7",
+    "name": "Samsung XAT067 P6.7",
+    "short": "LED Outdoor P6.7",
+    "desc": "Pilihan layar Samsung XAT untuk tampilan luar ruangan dengan piksel 6,67 mm.",
+    "specs": [
+      [
+        "Pixel pitch",
+        "6,67 mm"
+      ],
+      [
+        "Kecerahan",
+        "6.000 nits"
+      ],
+      [
+        "Resolusi kabinet",
+        "144 × 144"
+      ]
+    ],
+    "extra": [
+      [
+        "Tipe LED",
+        "SMD2727"
+      ],
+      [
+        "Kontras",
+        "3.000:1"
+      ],
+      [
+        "Proteksi depan/belakang",
+        "IP65"
+      ]
+    ],
+    "image": "assets/images/catalog/samsung-xat067-p6-7.webp",
+    "width": 317,
+    "height": 321,
+    "sheet": "Samsung",
+    "row": 5,
+    "original": "xl/media/image18.png",
+    "sha256": "0f4799c40e5af264640bc4b25c11de549e606f6ec3a5871b43368354cf8d27b3",
+    "official": "https://www.samsung.com/sg/business/led-signage/outdoor-led/led-sigange-xa067t-lh067xatsac-en/",
+    "brand": "Samsung",
+    "category": "outdoor"
+  }
+]
