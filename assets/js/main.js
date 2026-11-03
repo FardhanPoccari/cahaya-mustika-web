@@ -45,6 +45,13 @@
 
   // Menu HP: ikon, scroll lock, focus, Escape, klik luar, dan perubahan lebar layar.
   const header = document.querySelector("header");
+  const headerBar = header?.firstElementChild;
+  function syncNavbarHeight() {
+    if (headerBar) root.style.setProperty("--navbar-height", Math.ceil(headerBar.getBoundingClientRect().height + 1) + "px");
+  }
+  syncNavbarHeight();
+  if (headerBar && "ResizeObserver" in window) new ResizeObserver(syncNavbarHeight).observe(headerBar);
+  else window.addEventListener("resize", syncNavbarHeight, {passive: true});
   const menuButton = document.querySelector("[data-menu-toggle]");
   const mobileMenu = document.getElementById("mobile-menu");
   const desktop = window.matchMedia("(min-width: 1280px)");
@@ -127,43 +134,68 @@
     window.addEventListener("popstate", () => filterProducts(new URLSearchParams(location.search).get("brand") || "all"));
   }
 
-  // FAQ: animasi tinggi tanpa memaksa tinggi tetap atau memotong jawabannya.
+  // FAQ: satu status native dan satu animasi tinggi per pertanyaan.
   const faqs = [...document.querySelectorAll(".faq-item")];
   const faqAnimations = new Map();
+  function updateFAQIcon(item) {
+    const icon = item.querySelector(".faq-symbol");
+    if (icon) icon.textContent = item.open ? "−" : "+";
+  }
   function setFAQ(item, open) {
-    const previous = faqAnimations.get(item);
     const start = item.getBoundingClientRect().height;
-    previous?.animation.cancel();
+    const previous = faqAnimations.get(item);
+    if (previous) { clearTimeout(previous.timer); previous.animation.cancel(); }
     faqAnimations.delete(item);
-    const summary = item.querySelector("summary");
-    if (!summary) return;
-    if (reduceMotion.matches || !item.animate) { item.open = open; item.style.removeProperty("overflow"); return; }
-    item.open = true;
-    const end = open ? item.getBoundingClientRect().height : summary.getBoundingClientRect().height;
+    item.style.removeProperty("overflow");
+    // Toggle native state once. Closing an earlier item happens before opening the next.
+    item.open = open;
+    updateFAQIcon(item);
+    const end = item.getBoundingClientRect().height;
+    if (reduceMotion.matches || !item.animate || Math.abs(start - end) < 1) return;
     item.style.overflow = "hidden";
-    const animation = item.animate([{ height: start + "px" }, { height: end + "px" }], { duration: 260, easing: "cubic-bezier(.22,1,.36,1)" });
-    faqAnimations.set(item, { animation, open });
-    animation.onfinish = () => {
-      item.open = open;
-      item.style.removeProperty("overflow");
+    const animation = item.animate([{height: start + "px"}, {height: end + "px"}], {
+      duration: 260, easing: "cubic-bezier(.22,1,.36,1)"
+    });
+    const record = { animation, timer: undefined };
+    faqAnimations.set(item, record);
+    const finish = () => {
+      if (faqAnimations.get(item) !== record) return;
+      clearTimeout(record.timer);
       faqAnimations.delete(item);
+      item.style.removeProperty("overflow");
+      animation.cancel();
     };
+    animation.onfinish = finish;
+    animation.oncancel = finish;
+    // Closing native details can defer animation events in an offscreen frame.
+    // Always restore natural layout, including after rapid repeated clicks.
+    record.timer = window.setTimeout(finish, 284);
   }
   faqs.forEach((item) => {
-    // Native grouping still works without JS; custom grouping allows animated close.
+    item.open = false;
     item.removeAttribute("name");
+    updateFAQIcon(item);
+    item.addEventListener("toggle", () => updateFAQIcon(item));
     item.querySelector("summary")?.addEventListener("click", (event) => {
       event.preventDefault();
-      const nextOpen = !(faqAnimations.get(item)?.open ?? item.open);
-      if (nextOpen) faqs.forEach((other) => { if (other !== item && (faqAnimations.get(other)?.open ?? other.open)) setFAQ(other, false); });
+      const nextOpen = !item.open;
+      const group = item.closest("[data-faq-group]");
+      if (nextOpen) faqs.forEach((other) => {
+        if (other !== item && other.open && other.closest("[data-faq-group]") === group) setFAQ(other, false);
+      });
       setFAQ(item, nextOpen);
     });
   });
-  listenMedia(reduceMotion, () => {
-    if (!reduceMotion.matches) return;
-    faqAnimations.forEach(({ animation, open }, item) => { animation.cancel(); item.open = open; item.style.removeProperty("overflow"); });
+  function finishFAQAnimations() {
+    faqAnimations.forEach((record, item) => {
+      clearTimeout(record.timer);
+      record.animation.cancel();
+      item.style.removeProperty("overflow");
+    });
     faqAnimations.clear();
-  });
+  }
+  listenMedia(reduceMotion, () => { if (reduceMotion.matches) finishFAQAnimations(); });
+  window.addEventListener("resize", finishFAQAnimations, {passive: true});
 
   // Sebuah gambar yang gagal tidak boleh menyisakan kotak kosong tanpa keterangan.
   function handleImageError(image) {

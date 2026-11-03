@@ -1,8 +1,11 @@
 {
   "kind": "reduced-motion-javascript",
+  "page": "pages/videotron-indoor.html",
   "initial": "hero-slide-1",
   "after": "hero-slide-1",
-  "unchanged": true,
+  "faqOpens": true,
+  "faqCloses": true,
   "loaderHidden": true,
-  "pendingReveal": 0
+  "pendingReveal": 0,
+  "pass": true
 }

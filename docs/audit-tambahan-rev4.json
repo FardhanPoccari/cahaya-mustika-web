@@ -1,0 +1,61 @@
+{
+  "javascript": [
+    {
+      "file": "assets/js/animations.js",
+      "pass": true,
+      "error": ""
+    },
+    {
+      "file": "assets/js/gallery.js",
+      "pass": true,
+      "error": ""
+    },
+    {
+      "file": "assets/js/init.js",
+      "pass": true,
+      "error": ""
+    },
+    {
+      "file": "assets/js/main.js",
+      "pass": true,
+      "error": ""
+    },
+    {
+      "file": "assets/js/slider.js",
+      "pass": true,
+      "error": ""
+    }
+  ],
+  "sitemap_count": 55,
+  "sitemap_unique": true,
+  "sitemap_exact": true,
+  "robots": "User-agent: *\nAllow: /\n\nSitemap: https://fardhanpoccari.github.io/cahaya-mustika-web/sitemap.xml\n",
+  "metadata_titles": 56,
+  "html_pages": 56,
+  "faq_answers_words": {
+    "indoor": [
+      49,
+      50,
+      52,
+      51,
+      53,
+      51
+    ],
+    "outdoor": [
+      50,
+      52,
+      52,
+      52,
+      52,
+      51
+    ]
+  },
+  "home_images_preserved": true,
+  "source_total_bytes": 10740451,
+  "home_images": [
+    "assets/images/proyek/auditorium-logo.webp",
+    "assets/images/proyek/lobby-rumah-sakit.webp",
+    "assets/images/proyek/ruang-sidang.webp",
+    "assets/images/proyek/auditorium-panorama.webp"
+  ]
+}

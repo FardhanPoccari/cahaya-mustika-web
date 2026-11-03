@@ -1,0 +1,215 @@
+[
+  {
+    "slug": "fasad-gedung",
+    "category": "outdoor",
+    "image": "assets/images/applications/outdoor/fasad-gedung.webp",
+    "width": 1600,
+    "height": 1177,
+    "small": "assets/images/applications/outdoor/fasad-gedung-768.webp",
+    "small_width": 768,
+    "alt": "Layar LED pada fasad Resorts World Las Vegas",
+    "source": "https://commons.wikimedia.org/wiki/File:Resorts_World_Las_Vegas_exterior_and_LED_screen.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/3/33/Resorts_World_Las_Vegas_exterior_and_LED_screen.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "author": "Ken Lund",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "original_dimensions": [
+      4521,
+      3327
+    ],
+    "changes": "Diperkecil dan dikompresi menjadi WebP; pemotongan tampilan memakai CSS object-fit: cover.",
+    "original_sha256": "174033f11112dba6a081644a7a4d0a4750068964225b1ad6abf969a6744e7421"
+  },
+  {
+    "slug": "plaza-publik",
+    "category": "outdoor",
+    "image": "assets/images/applications/outdoor/plaza-publik.webp",
+    "width": 1600,
+    "height": 1200,
+    "small": "assets/images/applications/outdoor/plaza-publik-768.webp",
+    "small_width": 768,
+    "alt": "Layar LED di Fountain Plaza, Victoria Park, Hong Kong",
+    "source": "https://commons.wikimedia.org/wiki/File:HK_CWB_Victoria_Park_outdoor_LED_screen_Sept-2017.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/9/96/HK_CWB_Victoria_Park_outdoor_LED_screen_Sept-2017.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "author": "Stomatapoll",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "original_dimensions": [
+      4608,
+      3456
+    ],
+    "changes": "Diperkecil dan dikompresi menjadi WebP; pemotongan tampilan memakai CSS object-fit: cover.",
+    "original_sha256": "de89a37cdd7d70187a8e9738ff9af50b911b887c7a236c7f58e10a62f3b9471f"
+  },
+  {
+    "slug": "stadion-olahraga",
+    "category": "outdoor",
+    "image": "assets/images/applications/outdoor/stadion-olahraga.webp",
+    "width": 1600,
+    "height": 1067,
+    "small": "assets/images/applications/outdoor/stadion-olahraga-768.webp",
+    "small_width": 768,
+    "alt": "Layar video besar di Charlotte Motor Speedway",
+    "source": "https://commons.wikimedia.org/wiki/File:Charlotte_Motor_Speedway_video_screen.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Charlotte_Motor_Speedway_video_screen.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "author": "Nascar1996",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "original_dimensions": [
+      5184,
+      3456
+    ],
+    "changes": "Diperkecil dan dikompresi menjadi WebP; pemotongan tampilan memakai CSS object-fit: cover.",
+    "original_sha256": "0aabdaf2d024acbe2efd6afe8fb3749ab768d1990e60a2ca8814853e0fcb76de"
+  },
+  {
+    "slug": "tempat-ibadah",
+    "category": "indoor",
+    "image": "assets/images/applications/indoor/tempat-ibadah.webp",
+    "width": 1600,
+    "height": 1067,
+    "small": "assets/images/applications/indoor/tempat-ibadah-768.webp",
+    "small_width": 768,
+    "alt": "Layar visual di panggung auditorium gereja",
+    "source": "https://commons.wikimedia.org/wiki/File:Interior_view_of_the_Church_Auditorium.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/1/10/Interior_view_of_the_Church_Auditorium.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "author": "Zlwchurchintl",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "original_dimensions": [
+      5568,
+      3712
+    ],
+    "changes": "Diperkecil dan dikompresi menjadi WebP; pemotongan tampilan memakai CSS object-fit: cover.",
+    "original_sha256": "8a57f1a78942ec2038dbf47226d71c511e4ca46e5066b88e2fb20a11376ebeed"
+  },
+  {
+    "slug": "hotel-ballroom",
+    "category": "indoor",
+    "image": "assets/images/applications/indoor/hotel-ballroom.webp",
+    "width": 1600,
+    "height": 720,
+    "small": "assets/images/applications/indoor/hotel-ballroom-768.webp",
+    "small_width": 768,
+    "alt": "Layar LED pada hall acara Suntec Singapore Convention Centre",
+    "source": "https://commons.wikimedia.org/wiki/File:Suntec_Singapore_Convention_Centre_Hall_401_-_402_LED_Screen.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Suntec_Singapore_Convention_Centre_Hall_401_-_402_LED_Screen.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "author": "Exec8",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "original_dimensions": [
+      4000,
+      1800
+    ],
+    "changes": "Diperkecil dan dikompresi menjadi WebP; pemotongan tampilan memakai CSS object-fit: cover.",
+    "original_sha256": "33ad5a740881cad4cb07a24a9ab8af93ba399ae6565a6e5d84128abe5968bc38"
+  },
+  {
+    "slug": "billboard-digital",
+    "category": "outdoor",
+    "image": "assets/images/applications/outdoor/billboard-digital.webp",
+    "width": 1600,
+    "height": 1200,
+    "small": "assets/images/applications/outdoor/billboard-digital-768.webp",
+    "small_width": 768,
+    "alt": "Billboard LED di Piccadilly Circus pada malam hari",
+    "source": "https://commons.wikimedia.org/wiki/File:Piccadilly_Circus_by_night_January_2014.JPG",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Piccadilly_Circus_by_night_January_2014.JPG?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "author": "Billy Hicks",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "original_dimensions": [
+      4608,
+      3456
+    ],
+    "changes": "Diperkecil dan dikompresi menjadi WebP; pemotongan tampilan memakai CSS object-fit: cover.",
+    "original_sha256": "7c02d58f4ccab7d3df7fc403d5678cc0ec3d9065586677bf2bbe9e401a2cd0d3"
+  },
+  {
+    "slug": "showroom-retail",
+    "category": "indoor",
+    "image": "assets/images/applications/indoor/showroom-retail.webp",
+    "width": 1200,
+    "height": 1600,
+    "small": "assets/images/applications/indoor/showroom-retail-768.webp",
+    "small_width": 768,
+    "alt": "Layar LED vertikal di area retail SM Mall, Zamboanga City",
+    "source": "https://commons.wikimedia.org/wiki/File:SM_Mall_in_Zamboanga_City.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/8/8c/SM_Mall_in_Zamboanga_City.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "author": "Kim Jumad",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "original_dimensions": [
+      3000,
+      4000
+    ],
+    "changes": "Diperkecil dan dikompresi menjadi WebP; pemotongan tampilan memakai CSS object-fit: cover.",
+    "original_sha256": "4aaf499b532a7b8e4fd9181ffd6021d1b83199c7a26aeabfc26663b4390239ec"
+  },
+  {
+    "slug": "komersial-outdoor",
+    "category": "outdoor",
+    "image": "assets/images/applications/outdoor/komersial-outdoor.webp",
+    "width": 1600,
+    "height": 1280,
+    "small": "assets/images/applications/outdoor/komersial-outdoor-768.webp",
+    "small_width": 768,
+    "alt": "Layar iklan LED di kawasan komersial Shinjuku, Tokyo",
+    "source": "https://commons.wikimedia.org/wiki/File:Buildings_with_colorful_neon_street_signs_at_blue_hour,_Shinjuku,_Tokyo.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Buildings_with_colorful_neon_street_signs_at_blue_hour%2C_Shinjuku%2C_Tokyo.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "author": "Basile Morin",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "original_dimensions": [
+      4662,
+      3730
+    ],
+    "changes": "Diperkecil dan dikompresi menjadi WebP; pemotongan tampilan memakai CSS object-fit: cover.",
+    "original_sha256": "188b3d56b52751ac1c844e1868456eeb0617755fd32db7b4dbf88a938700baed"
+  },
+  {
+    "slug": "event-outdoor",
+    "category": "outdoor",
+    "image": "assets/images/applications/outdoor/event-outdoor.webp",
+    "width": 1600,
+    "height": 1178,
+    "small": "assets/images/applications/outdoor/event-outdoor-768.webp",
+    "small_width": 768,
+    "alt": "Panggung dan layar LED pada festival Castlefest 2024",
+    "source": "https://commons.wikimedia.org/wiki/File:Castlefest_2024,_met_een_concert_van_Shireen.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/5/54/Castlefest_2024%2C_met_een_concert_van_Shireen.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "author": "Lendskaip",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "original_dimensions": [
+      3886,
+      2862
+    ],
+    "changes": "Diperkecil dan dikompresi menjadi WebP; pemotongan tampilan memakai CSS object-fit: cover.",
+    "original_sha256": "48e1e70a5960736b247895f5e5db45eeaef468c6bd39da1fed43a56ab2a8f1ca"
+  },
+  {
+    "slug": "ruang-meeting",
+    "image": "assets/images/proyek/ruang-sidang.webp",
+    "width": 1600,
+    "height": 1200,
+    "alt": "Videotron dalam ruang pertemuan dengan meja dan kursi rapat",
+    "source": "Aset dalam ZIP pengguna"
+  },
+  {
+    "slug": "auditorium",
+    "image": "assets/images/proyek/auditorium-universitas.webp",
+    "width": 1280,
+    "height": 720,
+    "alt": "Layar LED besar pada panggung auditorium di dalam ruangan",
+    "source": "Aset dalam ZIP pengguna"
+  },
+  {
+    "slug": "lobi-indoor",
+    "image": "assets/images/proyek/lobby-rumah-sakit.webp",
+    "width": 1280,
+    "height": 720,
+    "alt": "Videotron horizontal di lobi rumah sakit dengan area penerimaan",
+    "source": "Aset dalam ZIP pengguna"
+  }
+]

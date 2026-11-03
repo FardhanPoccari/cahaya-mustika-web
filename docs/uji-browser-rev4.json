@@ -1,0 +1,3410 @@
+[
+  {
+    "page": "index.html",
+    "width": 360,
+    "height": 900,
+    "scrollWidth": 345,
+    "heroHeight": 669,
+    "heroBottom": 738,
+    "locations": 6,
+    "faqCount": 7,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {
+      "first": {
+        "open": true,
+        "icon": "−"
+      },
+      "second": {
+        "first": false,
+        "open": 1
+      },
+      "height": {
+        "answerBottom": 767.3125,
+        "cardBottom": 768.3125,
+        "overflow": ""
+      },
+      "final": [
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        }
+      ]
+    },
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "index.html",
+    "width": 390,
+    "height": 900,
+    "scrollWidth": 375,
+    "heroHeight": 669,
+    "heroBottom": 738,
+    "locations": 6,
+    "faqCount": 7,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {
+      "first": {
+        "open": true,
+        "icon": "−"
+      },
+      "second": {
+        "first": false,
+        "open": 1
+      },
+      "height": {
+        "answerBottom": 744.75,
+        "cardBottom": 745.75,
+        "overflow": ""
+      },
+      "final": [
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        }
+      ]
+    },
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "index.html",
+    "width": 768,
+    "height": 900,
+    "scrollWidth": 753,
+    "heroHeight": 741,
+    "heroBottom": 810,
+    "locations": 6,
+    "faqCount": 7,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {
+      "first": {
+        "open": true,
+        "icon": "−"
+      },
+      "second": {
+        "first": false,
+        "open": 1
+      },
+      "height": {
+        "answerBottom": 694.90625,
+        "cardBottom": 695.90625,
+        "overflow": ""
+      },
+      "final": [
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        }
+      ]
+    },
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "index.html",
+    "width": 1024,
+    "height": 900,
+    "scrollWidth": 1009,
+    "heroHeight": 741,
+    "heroBottom": 810,
+    "locations": 6,
+    "faqCount": 7,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {
+      "first": {
+        "open": true,
+        "icon": "−"
+      },
+      "second": {
+        "first": false,
+        "open": 1
+      },
+      "height": {
+        "answerBottom": 669.59375,
+        "cardBottom": 670.59375,
+        "overflow": ""
+      },
+      "final": [
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        }
+      ]
+    },
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "index.html",
+    "width": 1440,
+    "height": 900,
+    "scrollWidth": 1425,
+    "heroHeight": 831,
+    "heroBottom": 900,
+    "locations": 6,
+    "faqCount": 7,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {
+      "first": {
+        "open": true,
+        "icon": "−"
+      },
+      "second": {
+        "first": false,
+        "open": 1
+      },
+      "height": {
+        "answerBottom": 669.765625,
+        "cardBottom": 670.765625,
+        "overflow": ""
+      },
+      "final": [
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        }
+      ]
+    },
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/videotron-indoor.html",
+    "width": 360,
+    "height": 900,
+    "scrollWidth": 345,
+    "heroHeight": 669,
+    "heroBottom": 738,
+    "locations": 6,
+    "faqCount": 6,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {
+      "first": {
+        "open": true,
+        "icon": "−"
+      },
+      "second": {
+        "first": false,
+        "open": 1
+      },
+      "height": {
+        "answerBottom": 875.671875,
+        "cardBottom": 876.671875,
+        "overflow": ""
+      },
+      "final": [
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        }
+      ]
+    },
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/videotron-indoor.html",
+    "width": 390,
+    "height": 900,
+    "scrollWidth": 375,
+    "heroHeight": 669,
+    "heroBottom": 738,
+    "locations": 6,
+    "faqCount": 6,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {
+      "first": {
+        "open": true,
+        "icon": "−"
+      },
+      "second": {
+        "first": false,
+        "open": 1
+      },
+      "height": {
+        "answerBottom": 830.828125,
+        "cardBottom": 831.828125,
+        "overflow": ""
+      },
+      "final": [
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        }
+      ]
+    },
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/videotron-indoor.html",
+    "width": 768,
+    "height": 900,
+    "scrollWidth": 753,
+    "heroHeight": 741,
+    "heroBottom": 810,
+    "locations": 6,
+    "faqCount": 6,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {
+      "first": {
+        "open": true,
+        "icon": "−"
+      },
+      "second": {
+        "first": false,
+        "open": 1
+      },
+      "height": {
+        "answerBottom": 719.59375,
+        "cardBottom": 720.59375,
+        "overflow": ""
+      },
+      "final": [
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        }
+      ]
+    },
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/videotron-indoor.html",
+    "width": 1024,
+    "height": 900,
+    "scrollWidth": 1009,
+    "heroHeight": 741,
+    "heroBottom": 810,
+    "locations": 6,
+    "faqCount": 6,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {
+      "first": {
+        "open": true,
+        "icon": "−"
+      },
+      "second": {
+        "first": false,
+        "open": 1
+      },
+      "height": {
+        "answerBottom": 694.546875,
+        "cardBottom": 695.546875,
+        "overflow": ""
+      },
+      "final": [
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        }
+      ]
+    },
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/videotron-indoor.html",
+    "width": 1440,
+    "height": 900,
+    "scrollWidth": 1425,
+    "heroHeight": 831,
+    "heroBottom": 900,
+    "locations": 6,
+    "faqCount": 6,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {
+      "first": {
+        "open": true,
+        "icon": "−"
+      },
+      "second": {
+        "first": false,
+        "open": 1
+      },
+      "height": {
+        "answerBottom": 694.90625,
+        "cardBottom": 695.90625,
+        "overflow": ""
+      },
+      "final": [
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        }
+      ]
+    },
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/videotron-outdoor.html",
+    "width": 360,
+    "height": 900,
+    "scrollWidth": 345,
+    "heroHeight": 669,
+    "heroBottom": 738,
+    "locations": 6,
+    "faqCount": 6,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {
+      "first": {
+        "open": true,
+        "icon": "−"
+      },
+      "second": {
+        "first": false,
+        "open": 1
+      },
+      "height": {
+        "answerBottom": 875.671875,
+        "cardBottom": 876.671875,
+        "overflow": ""
+      },
+      "final": [
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        }
+      ]
+    },
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/videotron-outdoor.html",
+    "width": 390,
+    "height": 900,
+    "scrollWidth": 375,
+    "heroHeight": 669,
+    "heroBottom": 738,
+    "locations": 6,
+    "faqCount": 6,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {
+      "first": {
+        "open": true,
+        "icon": "−"
+      },
+      "second": {
+        "first": false,
+        "open": 1
+      },
+      "height": {
+        "answerBottom": 830.828125,
+        "cardBottom": 831.828125,
+        "overflow": ""
+      },
+      "final": [
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        }
+      ]
+    },
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/videotron-outdoor.html",
+    "width": 768,
+    "height": 900,
+    "scrollWidth": 753,
+    "heroHeight": 741,
+    "heroBottom": 810,
+    "locations": 6,
+    "faqCount": 6,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {
+      "first": {
+        "open": true,
+        "icon": "−"
+      },
+      "second": {
+        "first": false,
+        "open": 1
+      },
+      "height": {
+        "answerBottom": 719.59375,
+        "cardBottom": 720.59375,
+        "overflow": ""
+      },
+      "final": [
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        }
+      ]
+    },
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/videotron-outdoor.html",
+    "width": 1024,
+    "height": 900,
+    "scrollWidth": 1009,
+    "heroHeight": 741,
+    "heroBottom": 810,
+    "locations": 6,
+    "faqCount": 6,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {
+      "first": {
+        "open": true,
+        "icon": "−"
+      },
+      "second": {
+        "first": false,
+        "open": 1
+      },
+      "height": {
+        "answerBottom": 694.546875,
+        "cardBottom": 695.546875,
+        "overflow": ""
+      },
+      "final": [
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        }
+      ]
+    },
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/videotron-outdoor.html",
+    "width": 1440,
+    "height": 900,
+    "scrollWidth": 1425,
+    "heroHeight": 831,
+    "heroBottom": 900,
+    "locations": 6,
+    "faqCount": 6,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {
+      "first": {
+        "open": true,
+        "icon": "−"
+      },
+      "second": {
+        "first": false,
+        "open": 1
+      },
+      "height": {
+        "answerBottom": 694.90625,
+        "cardBottom": 695.90625,
+        "overflow": ""
+      },
+      "final": [
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        }
+      ]
+    },
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/artikel.html",
+    "width": 390,
+    "height": 900,
+    "scrollWidth": 375,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/artikel.html",
+    "width": 1440,
+    "height": 900,
+    "scrollWidth": 1425,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/artikel/apa-itu-videotron-indoor.html",
+    "width": 390,
+    "height": 900,
+    "scrollWidth": 375,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/artikel/apa-itu-videotron-indoor.html",
+    "width": 1440,
+    "height": 900,
+    "scrollWidth": 1425,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/artikel/cara-memilih-pixel-pitch.html",
+    "width": 390,
+    "height": 900,
+    "scrollWidth": 375,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/artikel/cara-memilih-pixel-pitch.html",
+    "width": 1440,
+    "height": 900,
+    "scrollWidth": 1425,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/artikel/checklist-sebelum-membeli-videotron-indoor.html",
+    "width": 390,
+    "height": 900,
+    "scrollWidth": 375,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/artikel/checklist-sebelum-membeli-videotron-indoor.html",
+    "width": 1440,
+    "height": 900,
+    "scrollWidth": 1425,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/artikel/kecerahan-dan-refresh-rate-led.html",
+    "width": 390,
+    "height": 900,
+    "scrollWidth": 375,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/artikel/kecerahan-dan-refresh-rate-led.html",
+    "width": 1440,
+    "height": 900,
+    "scrollWidth": 1425,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/kontak.html",
+    "width": 390,
+    "height": 900,
+    "scrollWidth": 375,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/kontak.html",
+    "width": 1440,
+    "height": 900,
+    "scrollWidth": 1425,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/kredit-foto.html",
+    "width": 390,
+    "height": 900,
+    "scrollWidth": 375,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/kredit-foto.html",
+    "width": 1440,
+    "height": 900,
+    "scrollWidth": 1425,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/portofolio.html",
+    "width": 390,
+    "height": 900,
+    "scrollWidth": 375,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/portofolio.html",
+    "width": 1440,
+    "height": 900,
+    "scrollWidth": 1425,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/portofolio/contoh-ballroom.html",
+    "width": 390,
+    "height": 900,
+    "scrollWidth": 375,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/portofolio/contoh-ballroom.html",
+    "width": 1440,
+    "height": 900,
+    "scrollWidth": 1425,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/portofolio/contoh-lobby-hotel.html",
+    "width": 390,
+    "height": 900,
+    "scrollWidth": 375,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/portofolio/contoh-lobby-hotel.html",
+    "width": 1440,
+    "height": 900,
+    "scrollWidth": 1425,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/portofolio/contoh-pusat-perbelanjaan.html",
+    "width": 390,
+    "height": 900,
+    "scrollWidth": 375,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/portofolio/contoh-pusat-perbelanjaan.html",
+    "width": 1440,
+    "height": 900,
+    "scrollWidth": 1425,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/portofolio/contoh-ruang-meeting.html",
+    "width": 390,
+    "height": 900,
+    "scrollWidth": 375,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/portofolio/contoh-ruang-meeting.html",
+    "width": 1440,
+    "height": 900,
+    "scrollWidth": 1425,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/portofolio/contoh-showroom.html",
+    "width": 390,
+    "height": 900,
+    "scrollWidth": 375,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/portofolio/contoh-showroom.html",
+    "width": 1440,
+    "height": 900,
+    "scrollWidth": 1425,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/portofolio/contoh-tempat-ibadah.html",
+    "width": 390,
+    "height": 900,
+    "scrollWidth": 375,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/portofolio/contoh-tempat-ibadah.html",
+    "width": 1440,
+    "height": 900,
+    "scrollWidth": 1425,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/produk.html",
+    "width": 390,
+    "height": 900,
+    "scrollWidth": 375,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/produk.html",
+    "width": 1440,
+    "height": 900,
+    "scrollWidth": 1425,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/produk/hikvision.html",
+    "width": 390,
+    "height": 900,
+    "scrollWidth": 375,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/produk/hikvision.html",
+    "width": 1440,
+    "height": 900,
+    "scrollWidth": 1425,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/produk/hivision.html",
+    "width": 390,
+    "height": 900,
+    "scrollWidth": 375,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/produk/hivision.html",
+    "width": 1440,
+    "height": 900,
+    "scrollWidth": 1425,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/produk/hivision/hikvision-solid-p1-2.html",
+    "width": 390,
+    "height": 900,
+    "scrollWidth": 375,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/produk/hivision/hikvision-solid-p1-2.html",
+    "width": 1440,
+    "height": 900,
+    "scrollWidth": 1425,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/produk/hivision/hikvision-solid-p1-5.html",
+    "width": 390,
+    "height": 900,
+    "scrollWidth": 375,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/produk/hivision/hikvision-solid-p1-5.html",
+    "width": 1440,
+    "height": 900,
+    "scrollWidth": 1425,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/produk/hivision/hikvision-solid-p1-8.html",
+    "width": 390,
+    "height": 900,
+    "scrollWidth": 375,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/produk/hivision/hikvision-solid-p1-8.html",
+    "width": 1440,
+    "height": 900,
+    "scrollWidth": 1425,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/produk/hivision/hikvision-solid-plus-p1-2-gob.html",
+    "width": 390,
+    "height": 900,
+    "scrollWidth": 375,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/produk/hivision/hikvision-solid-plus-p1-2-gob.html",
+    "width": 1440,
+    "height": 900,
+    "scrollWidth": 1425,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/produk/hivision/hikvision-solid-plus-p1-5-gob.html",
+    "width": 390,
+    "height": 900,
+    "scrollWidth": 375,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/produk/hivision/hikvision-solid-plus-p1-5-gob.html",
+    "width": 1440,
+    "height": 900,
+    "scrollWidth": 1425,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/produk/hivision/hikvision-solid-plus-p1-8-gob.html",
+    "width": 390,
+    "height": 900,
+    "scrollWidth": 375,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/produk/hivision/hikvision-solid-plus-p1-8-gob.html",
+    "width": 1440,
+    "height": 900,
+    "scrollWidth": 1425,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/produk/hivision/hikvision-ultra-p0-9.html",
+    "width": 390,
+    "height": 900,
+    "scrollWidth": 375,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/produk/hivision/hikvision-ultra-p0-9.html",
+    "width": 1440,
+    "height": 900,
+    "scrollWidth": 1425,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/produk/hivision/hikvision-ultra-p1-2.html",
+    "width": 390,
+    "height": 900,
+    "scrollWidth": 375,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/produk/hivision/hikvision-ultra-p1-2.html",
+    "width": 1440,
+    "height": 900,
+    "scrollWidth": 1425,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/produk/hivision/hikvision-ultra-p1-5.html",
+    "width": 390,
+    "height": 900,
+    "scrollWidth": 375,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/produk/hivision/hikvision-ultra-p1-5.html",
+    "width": 1440,
+    "height": 900,
+    "scrollWidth": 1425,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/produk/indoor-p1-25.html",
+    "width": 390,
+    "height": 900,
+    "scrollWidth": 375,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/produk/indoor-p1-25.html",
+    "width": 1440,
+    "height": 900,
+    "scrollWidth": 1425,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/produk/indoor-p1-53.html",
+    "width": 390,
+    "height": 900,
+    "scrollWidth": 375,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/produk/indoor-p1-53.html",
+    "width": 1440,
+    "height": 900,
+    "scrollWidth": 1425,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/produk/indoor-p1-86.html",
+    "width": 390,
+    "height": 900,
+    "scrollWidth": 375,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/produk/indoor-p1-86.html",
+    "width": 1440,
+    "height": 900,
+    "scrollWidth": 1425,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/produk/indoor-p2-5.html",
+    "width": 390,
+    "height": 900,
+    "scrollWidth": 375,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/produk/indoor-p2-5.html",
+    "width": 1440,
+    "height": 900,
+    "scrollWidth": 1425,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/produk/indoor-p2.html",
+    "width": 390,
+    "height": 900,
+    "scrollWidth": 375,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/produk/indoor-p2.html",
+    "width": 1440,
+    "height": 900,
+    "scrollWidth": 1425,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/produk/indoor-p3.html",
+    "width": 390,
+    "height": 900,
+    "scrollWidth": 375,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/produk/indoor-p3.html",
+    "width": 1440,
+    "height": 900,
+    "scrollWidth": 1425,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/produk/lg.html",
+    "width": 390,
+    "height": 900,
+    "scrollWidth": 375,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/produk/lg.html",
+    "width": 1440,
+    "height": 900,
+    "scrollWidth": 1425,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/produk/lg/lg-magnit-lmea-p0-94.html",
+    "width": 390,
+    "height": 900,
+    "scrollWidth": 375,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/produk/lg/lg-magnit-lmea-p0-94.html",
+    "width": 1440,
+    "height": 900,
+    "scrollWidth": 1425,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/produk/lg/lg-magnit-lmea-p1-25.html",
+    "width": 390,
+    "height": 900,
+    "scrollWidth": 375,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/produk/lg/lg-magnit-lmea-p1-25.html",
+    "width": 1440,
+    "height": 900,
+    "scrollWidth": 1425,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/produk/lg/lg-magnit-lmea-p1-56.html",
+    "width": 390,
+    "height": 900,
+    "scrollWidth": 375,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/produk/lg/lg-magnit-lmea-p1-56.html",
+    "width": 1440,
+    "height": 900,
+    "scrollWidth": 1425,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/produk/lg/lg-magnit-lmpb-p0-78.html",
+    "width": 390,
+    "height": 900,
+    "scrollWidth": 375,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/produk/lg/lg-magnit-lmpb-p0-78.html",
+    "width": 1440,
+    "height": 900,
+    "scrollWidth": 1425,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/produk/lg/lg-magnit-lmpb-p0-94.html",
+    "width": 390,
+    "height": 900,
+    "scrollWidth": 375,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/produk/lg/lg-magnit-lmpb-p0-94.html",
+    "width": 1440,
+    "height": 900,
+    "scrollWidth": 1425,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/produk/lg/lg-magnit-lmpb-p1-25.html",
+    "width": 390,
+    "height": 900,
+    "scrollWidth": 375,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/produk/lg/lg-magnit-lmpb-p1-25.html",
+    "width": 1440,
+    "height": 900,
+    "scrollWidth": 1425,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/produk/lg/lg-magnit-lsab-p0-7.html",
+    "width": 390,
+    "height": 900,
+    "scrollWidth": 375,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/produk/lg/lg-magnit-lsab-p0-7.html",
+    "width": 1440,
+    "height": 900,
+    "scrollWidth": 1425,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/produk/lg/lg-magnit-lsab-p0-9.html",
+    "width": 390,
+    "height": 900,
+    "scrollWidth": 375,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/produk/lg/lg-magnit-lsab-p0-9.html",
+    "width": 1440,
+    "height": 900,
+    "scrollWidth": 1425,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/produk/lg/lg-magnit-lsab-p1-2.html",
+    "width": 390,
+    "height": 900,
+    "scrollWidth": 375,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/produk/lg/lg-magnit-lsab-p1-2.html",
+    "width": 1440,
+    "height": 900,
+    "scrollWidth": 1425,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/produk/samsung.html",
+    "width": 390,
+    "height": 900,
+    "scrollWidth": 375,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/produk/samsung.html",
+    "width": 1440,
+    "height": 900,
+    "scrollWidth": 1425,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/produk/samsung/samsung-iec-p0-93.html",
+    "width": 390,
+    "height": 900,
+    "scrollWidth": 375,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/produk/samsung/samsung-iec-p0-93.html",
+    "width": 1440,
+    "height": 900,
+    "scrollWidth": 1425,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/produk/samsung/samsung-iec-p1-2.html",
+    "width": 390,
+    "height": 900,
+    "scrollWidth": 375,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/produk/samsung/samsung-iec-p1-2.html",
+    "width": 1440,
+    "height": 900,
+    "scrollWidth": 1425,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/produk/samsung/samsung-iec-p1-5.html",
+    "width": 390,
+    "height": 900,
+    "scrollWidth": 375,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/produk/samsung/samsung-iec-p1-5.html",
+    "width": 1440,
+    "height": 900,
+    "scrollWidth": 1425,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/produk/samsung/samsung-ifr-p1-5.html",
+    "width": 390,
+    "height": 900,
+    "scrollWidth": 375,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/produk/samsung/samsung-ifr-p1-5.html",
+    "width": 1440,
+    "height": 900,
+    "scrollWidth": 1425,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/produk/samsung/samsung-ifr-p2-5.html",
+    "width": 390,
+    "height": 900,
+    "scrollWidth": 375,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/produk/samsung/samsung-ifr-p2-5.html",
+    "width": 1440,
+    "height": 900,
+    "scrollWidth": 1425,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/produk/samsung/samsung-ifr-p4-0.html",
+    "width": 390,
+    "height": 900,
+    "scrollWidth": 375,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/produk/samsung/samsung-ifr-p4-0.html",
+    "width": 1440,
+    "height": 900,
+    "scrollWidth": 1425,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/produk/samsung/samsung-the-wall-p0-63.html",
+    "width": 390,
+    "height": 900,
+    "scrollWidth": 375,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/produk/samsung/samsung-the-wall-p0-63.html",
+    "width": 1440,
+    "height": 900,
+    "scrollWidth": 1425,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/produk/samsung/samsung-the-wall-p0-84.html",
+    "width": 390,
+    "height": 900,
+    "scrollWidth": 375,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/produk/samsung/samsung-the-wall-p0-84.html",
+    "width": 1440,
+    "height": 900,
+    "scrollWidth": 1425,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/produk/samsung/samsung-the-wall-p0-945.html",
+    "width": 390,
+    "height": 900,
+    "scrollWidth": 375,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/produk/samsung/samsung-the-wall-p0-945.html",
+    "width": 1440,
+    "height": 900,
+    "scrollWidth": 1425,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/tentang-kami.html",
+    "width": 390,
+    "height": 900,
+    "scrollWidth": 375,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/tentang-kami.html",
+    "width": 1440,
+    "height": 900,
+    "scrollWidth": 1425,
+    "heroHeight": null,
+    "heroBottom": null,
+    "locations": 0,
+    "faqCount": 0,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {},
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "index.html",
+    "width": 390,
+    "height": 667,
+    "scrollWidth": 375,
+    "heroHeight": 533,
+    "heroBottom": 602,
+    "locations": 6,
+    "faqCount": 7,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {
+      "first": {
+        "open": true,
+        "icon": "−"
+      },
+      "second": {
+        "first": false,
+        "open": 1
+      },
+      "height": {
+        "answerBottom": 627.703125,
+        "cardBottom": 628.703125,
+        "overflow": ""
+      },
+      "final": [
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        }
+      ]
+    },
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "index.html",
+    "width": 768,
+    "height": 500,
+    "scrollWidth": 753,
+    "heroHeight": 536,
+    "heroBottom": 605,
+    "locations": 6,
+    "faqCount": 7,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {
+      "first": {
+        "open": true,
+        "icon": "−"
+      },
+      "second": {
+        "first": false,
+        "open": 1
+      },
+      "height": {
+        "answerBottom": 494.734375,
+        "cardBottom": 495.734375,
+        "overflow": ""
+      },
+      "final": [
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        }
+      ]
+    },
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/videotron-indoor.html",
+    "width": 390,
+    "height": 667,
+    "scrollWidth": 375,
+    "heroHeight": 652,
+    "heroBottom": 721,
+    "locations": 6,
+    "faqCount": 6,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {
+      "first": {
+        "open": true,
+        "icon": "−"
+      },
+      "second": {
+        "first": false,
+        "open": 1
+      },
+      "height": {
+        "answerBottom": 713.75,
+        "cardBottom": 714.75,
+        "overflow": ""
+      },
+      "final": [
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        }
+      ]
+    },
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/videotron-indoor.html",
+    "width": 768,
+    "height": 500,
+    "scrollWidth": 753,
+    "heroHeight": 610,
+    "heroBottom": 679,
+    "locations": 6,
+    "faqCount": 6,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {
+      "first": {
+        "open": true,
+        "icon": "−"
+      },
+      "second": {
+        "first": false,
+        "open": 1
+      },
+      "height": {
+        "answerBottom": 519.5625,
+        "cardBottom": 520.5625,
+        "overflow": ""
+      },
+      "final": [
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        }
+      ]
+    },
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/videotron-outdoor.html",
+    "width": 390,
+    "height": 667,
+    "scrollWidth": 375,
+    "heroHeight": 592,
+    "heroBottom": 661,
+    "locations": 6,
+    "faqCount": 6,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {
+      "first": {
+        "open": true,
+        "icon": "−"
+      },
+      "second": {
+        "first": false,
+        "open": 1
+      },
+      "height": {
+        "answerBottom": 714.265625,
+        "cardBottom": 715.265625,
+        "overflow": ""
+      },
+      "final": [
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        }
+      ]
+    },
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "page": "pages/videotron-outdoor.html",
+    "width": 768,
+    "height": 500,
+    "scrollWidth": 753,
+    "heroHeight": 536,
+    "heroBottom": 605,
+    "locations": 6,
+    "faqCount": 6,
+    "initialOpen": 0,
+    "faqTest": true,
+    "faqTrace": {
+      "first": {
+        "open": true,
+        "icon": "−"
+      },
+      "second": {
+        "first": false,
+        "open": 1
+      },
+      "height": {
+        "answerBottom": 519.421875,
+        "cardBottom": 520.421875,
+        "overflow": ""
+      },
+      "final": [
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        },
+        {
+          "open": false,
+          "overflow": ""
+        }
+      ]
+    },
+    "menuTest": true,
+    "detailTest": true,
+    "brokenImages": [],
+    "collisions": 0,
+    "clipped": 0,
+    "errors": [],
+    "pass": true
+  }
+]

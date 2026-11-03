@@ -1,84 +1,77 @@
-# Laporan Revisi Cahaya Mustika
+# Cahaya Mustika — Laporan Rev 4 Full Hero
 
-Tanggal: 2 November 2026.
+Tanggal: 3 November 2026. Dasar revisi: ZIP terbaru `Cahaya-Mustika-Final-Indoor-Outdoor(3).zip` dan master prompt Rev 4.
 
-Website asli telah direvisi menjadi paket statis lengkap berisi 55 halaman HTML. Tidak memerlukan npm, framework, instalasi dependency, atau proses build.
+Pekerjaan dilanjutkan dari hasil sebelumnya. Semua file implementasi, foto, referensi, dan verifikasi spreadsheet masih tersedia. Sesi browser yang terputus tidak menyimpan hasil akhir matriks pengujian; pengujian tersebut diselesaikan kembali tanpa membangun ulang website.
 
-## Perubahan
+## Perubahan website
 
-- Navbar desktop, mobile, dan footer memakai label **Indoor** dan **Outdoor**; penanda halaman aktif disesuaikan.
-- Tombol **Jeda** dihapus dari HTML, JavaScript, dan CSS. Slideshow beranda memakai satu timer, terus mengulang, serta tetap mempunyai panah dan indikator manual. Hover dan fokus tidak menghentikan putaran otomatis. Aktivitas dihentikan sementara ketika halaman tidak terlihat, menu atau galeri dibuka, atau preferensi reduced motion aktif.
-- Intro halaman hanya muncul di halaman tujuan, tanpa intro keluar kedua. Inisialisasi kelima berkas JavaScript dilindungi agar tidak dijalankan ganda.
-- Layout ke-4 beranda diganti bento grid asimetris. Halaman Indoor dan Outdoor juga mendapatkan bento grid dengan enam kartu, foto produk, overlay biru tua, ikon kategori, dan tautan ke produk yang tepat.
-- Layout ke-5 beranda dan katalog Indoor berisi enam produk Indoor. Katalog Outdoor berisi enam produk Outdoor. Desktop memakai tiga kolom, tablet dua kolom, dan mobile satu kolom.
-- Katalog menampilkan nama model sebenarnya, foto besar, spesifikasi, detail yang dapat dibuka, galeri perbesar foto, dan tombol penawaran. Model yang belum mempunyai halaman detail tersendiri diarahkan ke kartu katalog relevan; tidak dibuat halaman detail kosong.
-- CTA biru **“Masih Bingung Memilih Videotron?”** diterapkan pada seluruh 55 halaman. Desktop memakai teks di kiri dan tombol putih di kanan; mobile disusun vertikal.
-- Seluruh 196 tautan WhatsApp memakai **+62 811-3791-1115** (`https://wa.me/6281137911115`). Nomor lama tidak ditemukan pada kode aktif.
-- Seluruh halaman detail lama yang ada tetap dipertahankan dan tautannya diperiksa. Kedua alamat listing Hikvision yang sudah ada tetap bekerja; canonical menyatukannya ke `pages/produk/hikvision.html`.
-
-## Gambar dari spreadsheet
-
-Kedua tab **HIKVISION** dan **Samsung** diperiksa melalui ekspor spreadsheet yang mempertahankan gambar tertanam. Foto benar-benar diekstrak dan digunakan pada website, bukan sekadar ditautkan dalam laporan.
-
-| Kategori | Jumlah foto berbeda | Lokasi |
-|---|---:|---|
-| Indoor | 6 | Bento dan katalog Indoor, serta koleksi beranda |
-| Outdoor | 6 | Bento dan katalog Outdoor |
-
-Sumber: https://docs.google.com/spreadsheets/d/1QaBAxflClmKm48MenWRI-lG1YOPdxmPXbhtLe2MjT6U/edit
-
-Nama model, tab, nomor baris, nama gambar, dan rujukan koreksi tercatat di `docs/sumber-gambar.md` dan `docs/produk.json`. Tidak ada gambar palsu atau foto tambahan yang diduplikasi untuk memenuhi jumlah kartu. Foto produk yang sama digunakan konsisten pada bento dan katalog.
-
-Angka pitch Samsung XAT100 dan XAT067 pada spreadsheet tidak cocok dengan nama modelnya. Katalog mengikuti spesifikasi resmi Samsung. Deskripsi penggunaan VMR-O dan dimensi kabinet Hikvision DS-D4239CF-1AAB juga dikoreksi berdasarkan halaman produsen. Gambar tetap berasal dari spreadsheet.
-
-## Optimasi dan struktur
-
-- Foto katalog diubah ke WebP dengan margin kosong luar dipangkas. Varian 480 px dan `srcset` disediakan ketika ukuran sumber mencukupi; semua gambar mempunyai alt text serta dimensi untuk menjaga ruang layout.
-- Gambar di bawah layar memakai lazy loading; gambar pertama hero diprioritaskan.
-- Logo header yang semula 11.461 px diperkecil menjadi 800 px. Ukuran file turun dari sekitar 490 KB menjadi 24 KB.
-- Enam PNG ilustrasi Outdoor lama yang tidak lagi dipakai serta tiga logo merek tanpa referensi dibuang. CSS dialog digabungkan dan aturan tombol Jeda yang tidak diperlukan dihapus.
-- Canonical, Open Graph URL, robots, dan sitemap memakai target GitHub Pages `https://fardhanpoccari.github.io/vidiotron-indoor-outdoor/`. Sitemap hanya memuat berkas yang ada dan menghindari duplikasi alias listing.
-
-| Jalur | Isi |
+| Bagian | Hasil |
 |---|---|
-| `index.html` | Beranda |
-| `pages/` | Indoor, Outdoor, artikel, portofolio, kontak, dan detail produk lama |
-| `assets/css/` | CSS dasar, komponen bersama, dan katalog |
-| `assets/js/` | Tema/menu, transisi halaman, slider, dan galeri |
-| `assets/images/catalog/` | Dua belas foto produk dari spreadsheet beserta varian ukuran |
-| `assets/fonts/` | Font lokal |
-| `robots.txt`, `sitemap.xml`, `.nojekyll` | Berkas pendukung GitHub Pages |
-| `docs/` | Laporan, sumber, hasil pengujian, dan screenshot; tidak diperlukan untuk menjalankan website |
+| Hero Beranda | Foto, judul, deskripsi, tujuan CTA, dan empat slide asli dipertahankan. Tinggi hero desktop beserta navbar menjadi 100svh. |
+| Hero Indoor | H1 sesuai master prompt, deskripsi dan dua CTA, empat foto penerapan Indoor. Tombol Lihat Produk menuju `#katalog`. |
+| Hero Outdoor | H1 sesuai master prompt, deskripsi dan dua CTA, empat foto penerapan Outdoor. Tombol Lihat Produk menuju `#katalog`. |
+| Responsif hero | Tablet sekitar 90svh dan mobile sekitar 82svh; konten boleh menambah tinggi saat layar pendek. Tinggi navbar diukur otomatis. |
+| Slider | Autoplay lima detik, loop empat slide, panah dan indikator aktif, navigasi keyboard, autoplay berlanjut setelah interaksi, tanpa tombol Jeda. Foto memakai latar gelap untuk menghindari flash putih. |
+| Scroll | Indikator “Scroll untuk Jelajahi ↓” menuju bagian lokasi setelah hero. |
+| Bento | Enam kartu lokasi per kategori, foto full-cover, overlay biru, geometri asimetris yang sudah ada, dan penyesuaian mobile. Bento Beranda juga menggunakan enam lokasi Indoor. |
+| Katalog | Enam produk Indoor dan enam Outdoor, foto, nama, spesifikasi, detail accordion, lightbox, dan tombol penawaran dipertahankan. Halaman produk Hikvision, Samsung, LG, artikel, serta halaman lama lain tetap tersedia. |
+| FAQ Beranda | Tujuh pertanyaan lama dipertahankan; semuanya tertutup saat dimuat. |
+| FAQ kategori | Enam pertanyaan Indoor dan enam Outdoor; jawaban 49–53 kata. Urutan halaman: hero → enam lokasi → katalog → FAQ → CTA → footer. |
+| Desain FAQ | Border tipis, radius 18px, nomor, ikon +/− dalam lingkaran, aksen biru aktif, satu pertanyaan terbuka per kelompok. Native details dan satu animasi tinggi digunakan. Pembersihan animasi setelah klik cepat telah diperbaiki. |
+| CTA dan kontak | CTA biru yang sudah ada dipertahankan. Seluruh 218 tautan WhatsApp memakai `+62 811-3791-1115`. |
 
-ZIP tidak memuat `.git`, `node_modules`, package manager, server pengujian, atau berkas sementara.
+Enam lokasi Indoor: Ruang Meeting; Auditorium; Hotel dan Ballroom; Tempat Ibadah; Showroom dan Retail; Lobi dan Area Publik Indoor.
+
+Enam lokasi Outdoor: Billboard Digital; Fasad Gedung; Panggung dan Event Outdoor; Stadion dan Area Olahraga; Plaza dan Area Publik; Area Komersial Outdoor.
+
+Tombol bento menggunakan “Konsultasikan Kebutuhan →” menuju WhatsApp dengan konteks masing-masing lokasi. Halaman portofolio lama berisi contoh, sehingga tidak dijadikan detail proyek yang seolah telah terverifikasi.
+
+## Foto dan katalog
+
+| Hero | Slide dan sumber |
+|---|---|
+| Beranda | 4 foto asli ZIP: auditorium-logo, lobi rumah sakit, ruang sidang, auditorium-panorama. |
+| Indoor | 4 foto: auditorium, ruang meeting, hall acara Suntec, lobi rumah sakit. Tiga dari ZIP; satu referensi berlisensi terbuka. |
+| Outdoor | 4 foto: billboard Piccadilly Circus, fasad Resorts World Las Vegas, panggung Castlefest, plaza Victoria Park. Seluruhnya foto nyata berlisensi terbuka. |
+
+Bento memakai tiga aset penerapan dari ZIP dan sembilan foto eksternal berlisensi CC0 atau CC BY-SA. Setiap kategori memiliki enam foto berbeda. Kredit fotografer, sumber, lisensi, serta keterangan perubahan tersedia di `pages/kredit-foto.html`, `docs/sumber-gambar.md`, dan `docs/foto-penerapan.json`. Foto eksternal ditandai sebagai referensi penerapan dan tidak diklaim sebagai proyek Cahaya Mustika. Tidak ada gambar generatif.
+
+Google Sheets sumber dibuka dan kedua tab HIKVISION serta Samsung diperiksa. Dua belas gambar sumber katalog cocok dengan gambar tertanam dalam ekspor spreadsheet melalui hash SHA-256. Tidak ditemukan tautan folder Drive untuk foto penerapan. Foto dan spesifikasi katalog tidak diubah pada Rev 4.
+
+Foto kartu **Hotel dan Ballroom** adalah hall acara Suntec Singapore Convention Centre, sebagai referensi konfigurasi ruang acara. Foto hotel dengan layar LED yang sesuai dan izin penggunaan terverifikasi belum diperoleh; foto ini tidak diberi keterangan sebagai hotel atau proyek perusahaan. Ini satu keterbatasan kecocokan lokasi foto yang masih dicatat.
+
+Foto baru dioptimalkan menjadi WebP dengan sisi maksimum 1.600px dan varian 768px. Gambar bawah halaman memakai lazy loading, hero pertama diprioritaskan, dan dimensi gambar ditetapkan.
+
+## SEO dan tautan
+
+Canonical, Open Graph, robots, dan sitemap mengarah ke `https://fardhanpoccari.github.io/cahaya-mustika-web/`. Semua 56 halaman memiliki satu H1, title serta meta description unik, viewport, dan alt gambar. Structured data relevan mencakup halaman, organisasi, breadcrumb, FAQ, serta data produk yang dipertahankan.
+
+Sitemap berisi 55 URL unik. Alias lama `pages/produk/hivision.html` tetap tersedia untuk kompatibilitas, menggunakan canonical ke halaman Hikvision utama dan `noindex, follow`, serta dikeluarkan dari sitemap. Seluruh 55 halaman asli tetap ada; satu halaman kredit foto ditambahkan. Isi utama 52 halaman di luar tiga halaman yang direvisi dipastikan tetap sama.
+
+Audit path memeriksa tautan internal, anchor, CSS, JavaScript, srcset, dan aset. Navigasi juga diperiksa dengan prefix `/cahaya-mustika-web/`. Tidak ada dependency baru, npm, atau proses build. Tidak ada janji peringkat pencarian.
 
 ## Hasil pengujian
 
-| Pengujian | Cakupan | Hasil |
-|---|---|---|
-| Audit statis | 55 HTML; 1.978 elemen tautan; 429 elemen gambar; sumber CSS/JS dan gambar responsif | Tidak ditemukan file, gambar, atau target anchor internal yang hilang |
-| Responsive halaman utama | Beranda, Indoor, Outdoor pada 360, 390, 768, 1024, dan 1440 px | 15/15 lulus |
-| Halaman lainnya | Seluruh 52 halaman lainnya pada 390 px | 52/52 lulus |
-| Pemeriksaan ulang setelah optimasi | Ketiga halaman utama pada lima ukuran yang sama | 15/15 lulus |
-| Slideshow otomatis | 43 detik; dua putaran penuh; sembilan pengamatan pergantian | Terus berulang; tepat satu slide aktif |
-| Reduced motion JavaScript | Preferensi disimulasikan aktif selama lebih dari 5 detik | Slide tetap, loader tertutup, semua konten tampil |
-| Interaksi mobile | Buka/tutup menu, navigasi Outdoor, Escape, detail produk, galeri berikutnya, tema gelap/terang | Berfungsi |
-| Jalur subfolder | Navigasi Indoor ke Outdoor di simulasi direktori proyek GitHub Pages | Berfungsi; gambar termuat |
-| Sintaks JavaScript | Kelima berkas JS menggunakan pemeriksaan Node | Lulus |
-| Console | Halaman yang diuji, termasuk rangkaian iframe QA | Tidak ditemukan error dari berkas website; log ekstensi browser dikecualikan |
+| Pemeriksaan | Hasil |
+|---|---|
+| Audit statis | 56 HTML, 2,145 elemen tautan, 452 elemen gambar, 218 tautan WhatsApp; tidak ditemukan path/anchor internal rusak atau aset gambar korup. |
+| Preservasi | 55 halaman lama tersedia; 52/52 isi utama halaman lain sama; 12/12 produk kategori sama; empat foto hero Beranda sama. |
+| Metadata dan sitemap | 56 title serta deskripsi unik; sitemap 55 URL sesuai target; JSON-LD valid secara sintaks. |
+| JavaScript | Kelima berkas lulus `node --check`. |
+| Browser responsif | **127/127 kasus lulus** di Chrome. Tiga halaman utama pada lebar 360, 390, 768, 1024, dan 1440px; 53 halaman lain pada 390 dan 1440px; tambahan tiga halaman utama pada 390×667 dan 768×500. |
+| Layout browser | Tidak ditemukan horizontal overflow, gambar gagal, kartu bento bertabrakan, atau teks bento/hero terpotong pada kasus tersebut. Desktop diuji dengan hero + navbar sama dengan tinggi viewport. |
+| FAQ, menu, detail | Semua FAQ awal tertutup, ikon sesuai, hanya satu terbuka, bisa ditutup, dan klik cepat tidak meninggalkan tinggi/overflow terkunci. Menu mobile dan detail produk lolos pemeriksaan. |
+| Loop slider | Ketiga slider diamati selama 43 detik; masing-masing memiliki sedikitnya 9 rekaman pergantian/keadaan, satu slide aktif, dan kembali ke slide awal pada putaran berikutnya. |
+| Reduced motion | Simulasi preferensi reduced motion pada JavaScript lulus: autoplay berhenti, FAQ tetap bekerja, loader selesai, elemen reveal tidak tertahan. CSS juga menyediakan aturan reduced motion. |
+| Interaksi langsung | Keyboard FAQ, panah/indikator slider, autoplay setelah interaksi, scroll indicator, menu/Escape, lightbox, tema, dan navigasi dengan prefix GitHub Pages diuji; rincian ada di `uji-interaksi-rev4.json`. |
+| Console | Log browser diperiksa; tidak ditemukan error dari kode website. Pesan dari ekstensi browser dicatat terpisah. |
+| ZIP | Integritas CRC diperiksa dan file uji sementara tidak disertakan. |
 
-Pemeriksaan responsive mengecek lebar dokumen, gambar gagal dimuat, jumlah H1/CTA, jumlah kartu, kartu bertumpuk, dan teks bento yang keluar dari kartu. Bukti mentah tersedia di JSON dalam `docs/`. Screenshot desktop, mobile, dan CTA berada di `docs/screenshots/`.
+Pengujian ukuran layar dilakukan melalui iframe dengan viewport CSS yang ditentukan, bukan perangkat fisik. Reduced motion disimulasikan pada JavaScript, bukan perubahan pengaturan sistem operasi. Pengujian tidak mencakup Safari, Firefox, perangkat Android/iPhone fisik, Lighthouse/PageSpeed pada situs live, validasi Rich Results oleh Google, atau keterjangkauan seluruh tautan eksternal. Pembukaan `file://` tidak diuji di browser. Tidak ada klaim nilai performa numerik.
 
-## Batas verifikasi
+## Isi paket dan penggunaan
 
-- Skor Lighthouse/PageSpeed serta Core Web Vitals pada situs live belum diuji. Tidak ada klaim skor 100 atau hasil lapangan.
-- Paket ini belum dipublikasikan atau di-push ke GitHub. Jalur GitHub Pages telah diuji melalui simulasi subfolder.
-- Buka langsung melalui `file://` tidak dapat diuji karena browser pengujian hanya mengizinkan HTTP(S). Situs tidak memakai fetch, import module, atau dependency build untuk konten utamanya.
-- Screenshot referensi yang disebutkan dalam file instruksi tidak ikut menjadi lampiran sesi ini. Desain mengikuti rincian bento dan CTA tertulis.
-- Uji responsive memakai viewport browser/iframe, bukan perangkat Android atau iPhone fisik. Reduced motion sistem operasi tidak diubah; perilaku JavaScript disimulasikan dan CSS medianya diperiksa.
+`Cahaya-Mustika-Final-Rev-4-Full-Hero.zip` berisi website lengkap dan dokumentasi pengujian, screenshot desktop/mobile, sumber foto, serta README. Ekstrak lalu unggah **isi folder website** ke root repository sehingga `index.html`, `assets/`, `pages/`, `robots.txt`, `sitemap.xml`, dan `.nojekyll` berada langsung di root. Pertahankan halaman kredit foto dan tautannya untuk atribusi lisensi.
 
-## Cara menggunakan
-
-Ekstrak ZIP. Untuk GitHub Pages, unggah **isi folder website** sehingga `index.html` berada di root repository, bersama `assets/`, `pages/`, `robots.txt`, `sitemap.xml`, dan `.nojekyll`. Folder `docs/` bersifat dokumentasi dan boleh dipertahankan atau dihapus.
-
-Jika memakai repository atau domain lain, sesuaikan origin canonical, Open Graph URL, sitemap, dan robots sebelum publikasi. Tidak perlu menjalankan `npm install` atau perintah build.
+ZIP ini belum di-push ke GitHub dan belum dipublikasikan ulang. Pemeriksaan URL GitHub Pages menggunakan simulasi prefix lokal; deployment live masih mengikuti langkah upload/push pengguna.

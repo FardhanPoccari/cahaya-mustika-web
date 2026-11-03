@@ -1,0 +1,113 @@
+{
+  "checks": [
+    {
+      "check": "prefix-indoor-katalog-anchor",
+      "pass": true,
+      "url": "http://terminal.local:4173/cahaya-mustika-web/pages/videotron-indoor.html#katalog",
+      "top": 91.78125
+    },
+    {
+      "check": "product-lightbox-keyboard-arrow-escape",
+      "pass": true,
+      "nextCaption": "Hikvision DS-D4418FI-CAF(B) — Videotron Indoor",
+      "closed": true
+    },
+    {
+      "check": "faq-keyboard-enter-space-single-open-close",
+      "pass": true,
+      "afterSpace": [
+        {
+          "icon": "+",
+          "open": false
+        },
+        {
+          "icon": "−",
+          "open": true
+        },
+        {
+          "icon": "+",
+          "open": false
+        },
+        {
+          "icon": "+",
+          "open": false
+        },
+        {
+          "icon": "+",
+          "open": false
+        },
+        {
+          "icon": "+",
+          "open": false
+        }
+      ],
+      "allClosed": true
+    },
+    {
+      "check": "prefix-navbar-indoor-outdoor",
+      "pass": true,
+      "url": "http://terminal.local:4173/cahaya-mustika-web/pages/videotron-outdoor.html"
+    },
+    {
+      "check": "slider-manual-arrows-indicator",
+      "pass": true,
+      "next": "Event Outdoor",
+      "previous": "Fasad Gedung",
+      "dot": "Event Outdoor"
+    },
+    {
+      "check": "slider-keyboard-end-arrow-wrap",
+      "pass": true,
+      "endSlide": "hero-slide-4",
+      "wrapSlide": "hero-slide-1"
+    },
+    {
+      "check": "slider-autoplay-resumes-after-manual",
+      "pass": true,
+      "initial": "hero-slide-1",
+      "after": "hero-slide-4"
+    },
+    {
+      "check": "hero-scroll-indicator-location",
+      "pass": true,
+      "count": 6,
+      "top": 92
+    },
+    {
+      "check": "theme-toggle",
+      "pass": true,
+      "dark": "dark",
+      "light": "light"
+    },
+    {
+      "check": "mobile-menu-escape-restores-main",
+      "pass": true,
+      "closed": true,
+      "mainRestored": true
+    },
+    {
+      "check": "legacy-catalog-brand-filters",
+      "pass": true,
+      "samsungGroups": [
+        "samsung"
+      ],
+      "lgGroups": [
+        "lg"
+      ],
+      "allGroups": 4,
+      "expectedAllGroups": 4,
+      "note": "Semua includes Samsung, LG, Hikvision, and six general products retained from the original catalog."
+    },
+    {
+      "check": "website-console-errors",
+      "pass": true,
+      "websiteLogs": [],
+      "extensionMessagesIgnored": 70
+    }
+  ],
+  "runnerNotes": [
+    "Ten completed responsive cases were retained before adding a bounded requestAnimationFrame wait to the QA harness; website code was unchanged.",
+    "Screenshots were taken from a fresh page URL where locator auto-scrolling changed the viewport."
+  ],
+  "capturedAt": "2026-11-03T07:21:47.620Z"
+}

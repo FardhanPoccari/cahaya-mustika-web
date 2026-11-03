@@ -1,0 +1,155 @@
+[
+  {
+    "page": "index.html",
+    "snapshots": [
+      {
+        "ms": 0,
+        "label": "Auditorium",
+        "active": 1
+      },
+      {
+        "ms": 3236,
+        "label": "Lobi",
+        "active": 1
+      },
+      {
+        "ms": 8272,
+        "label": "Ruang sidang",
+        "active": 1
+      },
+      {
+        "ms": 13284,
+        "label": "Layar panorama",
+        "active": 1
+      },
+      {
+        "ms": 18294,
+        "label": "Auditorium",
+        "active": 1
+      },
+      {
+        "ms": 23308,
+        "label": "Lobi",
+        "active": 1
+      },
+      {
+        "ms": 28319,
+        "label": "Ruang sidang",
+        "active": 1
+      },
+      {
+        "ms": 33333,
+        "label": "Layar panorama",
+        "active": 1
+      },
+      {
+        "ms": 38348,
+        "label": "Auditorium",
+        "active": 1
+      }
+    ],
+    "pass": true
+  },
+  {
+    "page": "pages/videotron-indoor.html",
+    "snapshots": [
+      {
+        "ms": 0,
+        "label": "Auditorium",
+        "active": 1
+      },
+      {
+        "ms": 4244,
+        "label": "Ruang Meeting",
+        "active": 1
+      },
+      {
+        "ms": 9074,
+        "label": "Hall Acara",
+        "active": 1
+      },
+      {
+        "ms": 14086,
+        "label": "Lobi Gedung",
+        "active": 1
+      },
+      {
+        "ms": 19096,
+        "label": "Auditorium",
+        "active": 1
+      },
+      {
+        "ms": 24109,
+        "label": "Ruang Meeting",
+        "active": 1
+      },
+      {
+        "ms": 29120,
+        "label": "Hall Acara",
+        "active": 1
+      },
+      {
+        "ms": 34135,
+        "label": "Lobi Gedung",
+        "active": 1
+      },
+      {
+        "ms": 39150,
+        "label": "Auditorium",
+        "active": 1
+      }
+    ],
+    "pass": true
+  },
+  {
+    "page": "pages/videotron-outdoor.html",
+    "snapshots": [
+      {
+        "ms": 1,
+        "label": "Billboard Digital",
+        "active": 1
+      },
+      {
+        "ms": 4851,
+        "label": "Fasad Gedung",
+        "active": 1
+      },
+      {
+        "ms": 9876,
+        "label": "Event Outdoor",
+        "active": 1
+      },
+      {
+        "ms": 14887,
+        "label": "Plaza Publik",
+        "active": 1
+      },
+      {
+        "ms": 19900,
+        "label": "Billboard Digital",
+        "active": 1
+      },
+      {
+        "ms": 24911,
+        "label": "Fasad Gedung",
+        "active": 1
+      },
+      {
+        "ms": 29922,
+        "label": "Event Outdoor",
+        "active": 1
+      },
+      {
+        "ms": 34937,
+        "label": "Plaza Publik",
+        "active": 1
+      },
+      {
+        "ms": 39953,
+        "label": "Billboard Digital",
+        "active": 1
+      }
+    ],
+    "pass": true
+  }
+]

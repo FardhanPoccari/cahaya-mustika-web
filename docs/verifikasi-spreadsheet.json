@@ -1,0 +1,74 @@
+[
+  {
+    "model": "Hikvision DS-D4212FI-GWF/III",
+    "sheet": "HIKVISION",
+    "row": 5,
+    "same_source_photo": true
+  },
+  {
+    "model": "Hikvision DS-D4418FI-CAF(B)",
+    "sheet": "HIKVISION",
+    "row": 13,
+    "same_source_photo": true
+  },
+  {
+    "model": "Samsung IFJ-N P1.2",
+    "sheet": "Samsung",
+    "row": 2,
+    "same_source_photo": true
+  },
+  {
+    "model": "Hikvision UNO-Z-2.5-IHC-ZCD",
+    "sheet": "HIKVISION",
+    "row": 2,
+    "same_source_photo": true
+  },
+  {
+    "model": "Hikvision DS-D4009BW-2FC",
+    "sheet": "HIKVISION",
+    "row": 40,
+    "same_source_photo": true
+  },
+  {
+    "model": "Hikvision DS-D4425FI-CKF",
+    "sheet": "HIKVISION",
+    "row": 15,
+    "same_source_photo": true
+  },
+  {
+    "model": "Hikvision DS-D4440FO",
+    "sheet": "HIKVISION",
+    "row": 26,
+    "same_source_photo": true
+  },
+  {
+    "model": "Hikvision DS-D4239CF-1AAB",
+    "sheet": "HIKVISION",
+    "row": 53,
+    "same_source_photo": true
+  },
+  {
+    "model": "Samsung VMR-O P3.9",
+    "sheet": "Samsung",
+    "row": 4,
+    "same_source_photo": true
+  },
+  {
+    "model": "Samsung XAT100 P10",
+    "sheet": "Samsung",
+    "row": 3,
+    "same_source_photo": true
+  },
+  {
+    "model": "Hikvision DS-D4239CD-1AAB",
+    "sheet": "HIKVISION",
+    "row": 51,
+    "same_source_photo": true
+  },
+  {
+    "model": "Samsung XAT067 P6.7",
+    "sheet": "Samsung",
+    "row": 5,
+    "same_source_photo": true
+  }
+]
